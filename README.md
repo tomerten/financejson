@@ -2,7 +2,7 @@
 
 FinanceJSON is a JSON based finance file format. JSON is able to describe complex 
 data structures, 
-has a human readable syntax and is available in all common programming language. 
+has a human readable syntax and is available in all common programming languages. 
 It is therefore an 
 appropriate choice to store financial data in this format. Another advantage is 
 that this format allows easy storage and data extraction.
@@ -10,58 +10,38 @@ that this format allows easy storage and data extraction.
 ## Specification
 This repository contains the
 [Specification of 
-FinanceJSON](https://github.com/tomerte/financejson/blob/master/financejson/schema.json) 
+FinanceJSON](https://github.com/tomerten/financejson/blob/master/financejson/schema.json) 
 in form of a [JSON Schema](https://json-schema.org). 
 
 ## Example
 
-A LatticeJSON file for a FODO lattice:
+A FinanceJSON file for a stock:
 ```json
 {
-  "name": "FODO lattice",
-  "description": "This is the simplest possible strong focusing lattice.",
-  "elements": {
-    "D1": {"type": "Drift", "length": 0.55},
-    "Q1": {"type": "Quad", "length": 0.2, "k1": 1.2},
-    "Q2": {"type": "Quad", "length": 0.4, "k1": -1.2},
-    "B1": {"type": "Bend", "length": 1.5, "angle": 0.392701, "e1": 0.1963505, 
-"e2": 0.1963505}
-  },
-  "cells": {
-    "fodo": ["Q1", "D1", "B1", "D1", "Q2", "D1", "B1", "D1", "Q1"]
-  },
-
-  "main_cell": ["fodo", "fodo", "fodo", "fodo", "fodo", "fodo", "fodo", "fodo"]
-}
+  "yh_symbol": "XYZ",
+  "ms_symbol": "US_XYZ",
+  }
 ```
  
  
-# LatticeJSON CLI
+# FinanceJSON CLI
 [![Python 
-Version](https://img.shields.io/pypi/pyversions/latticejson)](https://pypi.org/project/financejson/)
-[![PyPI](https://img.shields.io/pypi/v/latticejson.svg)](https://pypi.org/project/financejson/)
-[![CI](https://github.com/andreasfelix/latticejson/workflows/CI/badge.svg)](https://github.com/TM/latticejson/actions?query=workflow%3ACI)
+Version](https://img.shields.io/pypi/pyversions/financejson)](https://pypi.org/project/financejson/)
+[![PyPI](https://img.shields.io/pypi/v/financejson.svg)](https://pypi.org/project/financejson/)
+[![CI](https://github.com/andreasfelix/financejson/workflows/CI/badge.svg)](https://github.com/tomerten/financejson/actions?query=workflow%3ACI)
 
 This repository also contains a Python based commandline tool which is able 
-validate and convert LatticeJSON
-files into other common lattice file formats.
+validate and extract data from financeJSON files.
 
-You can install and update it using pip or pipenv:
-
+Validate a financeJSON file:
 ```sh
-pip install -U latticejson
-``` 
-
-Validate a LatticeJSON file:
-```sh
-latticejson validate /path/to/lattice
+financejson validate /path/to/financejsonfile
 ```
 
-Convert a LatticeJSON file into the elegant lattice format:
+Convert a financeJSON file into CSV format:
 ```sh
-latticejson convert json elegant /path/to/lattice
+financejson convert json csv /path/to/financejsonfile
 ```
-
 ## License
 [GNU General Public License 
 v3.0](https://github.com/andreasfelix/latticejson/blob/master/LICENSE)
