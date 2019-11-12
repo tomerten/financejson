@@ -1,0 +1,13 @@
+{
+  "yh_symbol" : "AAPL",
+  "ms_symbol" : "AAPL",
+  "yh_currency" : "USD",
+  "ms_currency" : "USD",
+  "yh_sustainability": {
+    "ratingyear" : 2019,
+    "ratingmont" : 9,
+    "totalEsg": 12.4,
+    "controversyOverview": ["alcohol","nuclear"]
+  }
+}
+

@@ -1,0 +1,973 @@
+{
+  "$id": "",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON finance file format",
+  "description": "Defines the magnetic lattice format",
+  "additionalProperties": false,
+  "required": [
+    "yh_symbol",
+    "ms_symbol"
+  ],
+  "definitions": {
+    "currency": {
+      "type": "string",
+      "enum": [
+        "AED",
+        "ARS",
+        "AUD",
+        "BDT",
+        "BGN",
+        "BRL",
+        "CAD",
+        "CHF",
+        "CNY",
+        "COP",
+        "CZK",
+        "DKK",
+        "EGP",
+        "EUR",
+        "GBP",
+        "GEL",
+        "GHS",
+        "HKD",
+        "HUF",
+        "IDR",
+        "ILS",
+        "INR",
+        "JMD",
+        "JPY",
+        "KRW",
+        "KWD",
+        "KZT",
+        "MAD",
+        "MXN",
+        "MYR",
+        "NGN",
+        "NOK",
+        "NZD",
+        "OMR",
+        "PEN",
+        "PHP",
+        "PKR",
+        "PLN",
+        "RON",
+        "RUB",
+        "SAR",
+        "SEK",
+        "SGD",
+        "THB",
+        "TRY",
+        "TWD",
+        "UAH",
+        "USD",
+        "VND",
+        "ZAR"
+      ]
+    },
+    "percentage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "percentchange": {
+      "type": "number",
+      "minimum": -100,
+      "maximum": 100
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "datetime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "officer": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "$ref": "#/definitions/date"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "execisedValue": {
+          "type": "number"
+        },
+        "fiscalYear": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "totalPay": {
+          "type": "number"
+        },
+        "unexercisedValue": {
+          "type": "number"
+        },
+        "birthyear": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "yh_symbol": {
+      "type": "string",
+      "description": "Yahoo symbol name"
+    },
+    "ms_symbol": {
+      "type": "string",
+      "description": "MorningStar symbol name"
+    },
+    "yh_currency": {
+      "$ref": "#/definitions/currency",
+      "description": "yahoo currency"
+    },
+    "ms_currency": {
+      "$ref": "#/definitions/currency"
+    },
+    "yh_price_data_1d": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "$ref": "#/definitions/date"
+          },
+          "open": {
+            "type": "number",
+            "description": "daily open price"
+          },
+          "high": {
+            "type": "number",
+            "description": "daily high price"
+          },
+          "low": {
+            "type": "number",
+            "description": "daily low price"
+          },
+          "close": {
+            "type": "number",
+            "description": "dialy close price"
+          }
+        }
+      }
+    },
+    "yh_price_data_1m": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "datetime": {
+            "$ref": "#/definitions/datetime"
+          },
+          "open": {
+            "type": "number",
+            "description": "minute by minute open price"
+          },
+          "high": {
+            "type": "number",
+            "description": "minute by minute high price"
+          },
+          "low": {
+            "type": "number",
+            "description": "minute by minute low price"
+          },
+          "close": {
+            "type": "number",
+            "description": "minute by minute close price"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "yh_assetProfile": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "$ref": "#/definitions/date"
+        },
+        "address1": {
+          "type": "string"
+        },
+        "auditRisk": {
+          "type": "integer"
+        },
+        "boardRisk": {
+          "type": "integer"
+        },
+        "city": {
+          "type": "string"
+        },
+        "companyOfficers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/officer"
+          }
+        }
+      },
+      "compensationAsOfEpochDate": {
+        "$ref": "#/definitions/date"
+      },
+      "compensationRisk": {
+        "type": "integer"
+      },
+      "country": {
+        "type": "integer"
+      },
+      "fullTimeEmployees": {
+        "type": "integer"
+      },
+      "governanceEpochDate": {
+        "$ref": "#/definitions/date"
+      },
+      "industry": {
+        "type": "string"
+      },
+      "longBusinessSummary": {
+        "type": "string"
+      },
+      "overallRisk": {
+        "type": "integer"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "sector": {
+        "type": "string"
+      },
+      "shareHolderRightsRisk": {
+        "type": "integer"
+      },
+      "state": {
+        "type": "string"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri"
+      },
+      "zip": {
+        "type": "string"
+      }
+    },
+    "yh_balanceSheetStatementsYearly": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "last_update": {
+            "$ref": "#/definitions/date"
+          },
+          "accountsPayable": {
+            "type": "number"
+          },
+          "cash": {
+            "type": "number"
+          },
+          "commonStock": {
+            "type": "number"
+          },
+          "endDate": {
+            "$ref": "#/definitions/date"
+          },
+          "inventory": {
+            "type": "number"
+          },
+          "longTermDebt": {
+            "type": "number"
+          },
+          "longTermInvestments": {
+            "type": "number"
+          },
+          "netReceivables": {
+            "type": "number"
+          },
+          "netTangibleAssets": {
+            "type": "number"
+          },
+          "otherAssets": {
+            "type": "number"
+          },
+          "otherCurrentAssets": {
+            "type": "number"
+          },
+          "otherCurrentLiab": {
+            "type": "number"
+          },
+          "otherLiab": {
+            "type": "number"
+          },
+          "otherStockholderEquity": {
+            "type": "number"
+          },
+          "propertyPlantEquipment": {
+            "type": "number"
+          },
+          "retainedEarnings": {
+            "type": "number"
+          },
+          "shortLongTermDebt": {
+            "type": "number"
+          },
+          "shortTermInvestments": {
+            "type": "number"
+          },
+          "totalAssets": {
+            "type": "number"
+          },
+          "totalCurrentAssets": {
+            "type": "number"
+          },
+          "totalCurrentLiabilities": {
+            "type": "number"
+          },
+          "totalLiab": {
+            "type": "number"
+          },
+          "totalStockholderEquity": {
+            "type": "number"
+          },
+          "treasuryStock": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "yh_balanceSheetStatementsQuarterly": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "last_update": {
+            "$ref": "#/definitions/date"
+          },
+          "accountsPayable": {
+            "type": "number"
+          },
+          "cash": {
+            "type": "number"
+          },
+          "commonStock": {
+            "type": "number"
+          },
+          "endDate": {
+            "$ref": "#/definitions/date"
+          },
+          "inventory": {
+            "type": "number"
+          },
+          "longTermDebt": {
+            "type": "number"
+          },
+          "longTermInvestments": {
+            "type": "number"
+          },
+          "netReceivables": {
+            "type": "number"
+          },
+          "netTangibleAssets": {
+            "type": "number"
+          },
+          "otherAssets": {
+            "type": "number"
+          },
+          "otherCurrentAssets": {
+            "type": "number"
+          },
+          "otherCurrentLiab": {
+            "type": "number"
+          },
+          "otherLiab": {
+            "type": "number"
+          },
+          "otherStockholderEquity": {
+            "type": "number"
+          },
+          "propertyPlantEquipment": {
+            "type": "number"
+          },
+          "retainedEarnings": {
+            "type": "number"
+          },
+          "shortLongTermDebt": {
+            "type": "number"
+          },
+          "shortTermInvestments": {
+            "type": "number"
+          },
+          "totalAssets": {
+            "type": "number"
+          },
+          "totalCurrentAssets": {
+            "type": "number"
+          },
+          "totalCurrentLiabilities": {
+            "type": "number"
+          },
+          "totalLiab": {
+            "type": "number"
+          },
+          "totalStockholderEquity": {
+            "type": "number"
+          },
+          "treasuryStock": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "yh_calendarEvents": {
+      "type": "object",
+      "properties": {
+        "last_update": {
+          "$ref": "#/definitions/date"
+        },
+        "dividendDate": {
+          "$ref": "#/definitions/date"
+        },
+        "exDividendDate": {
+          "$ref": "#/definitions/date"
+        },
+        "earnings": {
+          "type": "object",
+          "properties": {
+            "earningsDate": {
+              "$ref": "#/definitions/date"
+            },
+            "earningsAverage": {
+              "type": "number"
+            },
+            "earningsLow": {
+              "type": "number"
+            },
+            "earnignsHigh": {
+              "type": "number"
+            },
+            "revenueAverage": {
+              "type": "number"
+            },
+            "revenueLow": {
+              "type": "number"
+            },
+            "revenueHigh": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "yh_cashflowStatementsYearly": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "last_updated": {
+            "$ref": "#/definitions/date"
+          },
+          "capitalExpenditures": {
+            "type": "number"
+          },
+          "changeInCash": {
+            "type": "number"
+          },
+          "changeToAccountReceivables": {
+            "type": "number"
+          },
+          "changeToInventory": {
+            "type": "number"
+          },
+          "changeToLiabilities": {
+            "type": "number"
+          },
+          "changeToNetincome": {
+            "type": "number"
+          },
+          "changeToOperatingActivities": {
+            "type": "number"
+          },
+          "depreciation": {
+            "type": "number"
+          },
+          "dividendsPaid": {
+            "type": "number"
+          },
+          "endDate": {
+            "$ref": "#/definitions/date"
+          },
+          "investments": {
+            "type": "number"
+          },
+          "issuanceOfStock": {
+            "type": "number"
+          },
+          "netBorrowings": {
+            "type": "number"
+          },
+          "netIncome": {
+            "type": "number"
+          },
+          "otherCashflowsFromFinancingActivities": {
+            "type": "number"
+          },
+          "otherCashflowsFromInvestingActivities": {
+            "type": "number"
+          },
+          "repurchaseOfStock": {
+            "type": "number"
+          },
+          "totalCashFromFinancingActivities": {
+            "type": "number"
+          },
+          "totalCashFromOperatingActivities": {
+            "type": "number"
+          },
+          "totalCashflowsFromInvestingActivities": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "yh_cashflowStatementsQuarterly": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "last_updated": {
+            "$ref": "#/definitions/date"
+          },
+          "capitalExpenditures": {
+            "type": "number"
+          },
+          "changeInCash": {
+            "type": "number"
+          },
+          "changeToAccountReceivables": {
+            "type": "number"
+          },
+          "changeToInventory": {
+            "type": "number"
+          },
+          "changeToLiabilities": {
+            "type": "number"
+          },
+          "changeToNetincome": {
+            "type": "number"
+          },
+          "changeToOperatingActivities": {
+            "type": "number"
+          },
+          "depreciation": {
+            "type": "number"
+          },
+          "dividendsPaid": {
+            "type": "number"
+          },
+          "endDate": {
+            "$ref": "#/definitions/date"
+          },
+          "investments": {
+            "type": "number"
+          },
+          "issuanceOfStock": {
+            "type": "number"
+          },
+          "netBorrowings": {
+            "type": "number"
+          },
+          "netIncome": {
+            "type": "number"
+          },
+          "otherCashflowsFromFinancingActivities": {
+            "type": "number"
+          },
+          "otherCashflowsFromInvestingActivities": {
+            "type": "number"
+          },
+          "repurchaseOfStock": {
+            "type": "number"
+          },
+          "totalCashFromFinancingActivities": {
+            "type": "number"
+          },
+          "totalCashFromOperatingActivities": {
+            "type": "number"
+          },
+          "totalCashflowsFromInvestingActivities": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "yh_KeyStatistics": {
+      "type": "object",
+      "properties": {
+        "last_updated": {
+          "$ref": "#/definitions/date"
+        },
+        "52WeekChange": {
+          "$ref": "#/definitions/percentchange"
+        },
+        "SandP52WeekChange": {
+          "$ref": "#/definitions/percentchange"
+        },
+        "annualHoldingsTurnover": {
+          "type": "number"
+        },
+        "annualReportExpenseRatio": {
+          "type": "number"
+        },
+        "beta": {
+          "type": "number"
+        },
+        "beta3Year": {
+          "type": "number"
+        },
+        "bookValue": {
+          "type": "number"
+        },
+        "category": {
+          "type": "string"
+        },
+        "dateShortInterest": {
+          "$ref": "#/definitions/date"
+        },
+        "earningsQuarterlyGrowth": {
+          "type": "number"
+        },
+        "enterpriseToEbitda": {
+          "type": "number"
+        },
+        "enterpriseToRevenue": {
+          "type": "number"
+        },
+        "enterpriseValue": {
+          "type": "number"
+        },
+        "fiveYearAverageReturn": {
+          "type": "number"
+        },
+        "floatShares": {
+          "type": "number"
+        },
+        "forwardEps": {
+          "type": "number"
+        },
+        "forwardPE": {
+          "type": "number"
+        },
+        "fundFamily": {
+          "type": "number"
+        },
+        "fundInceptionDate": {
+          "$ref": "#/definitions/date"
+        },
+        "heldPercentInsiders": {
+          "$ref": "#/definitions/percentage"
+        },
+        "heldPercentInstitutions": {
+          "$ref": "#/definitions/percentage"
+        },
+        "lastCapGain": {
+          "type": "number"
+        },
+        "lastDividendValue": {
+          "type": "number"
+        },
+        "lastFiscalYearEnd": {
+          "$ref": "#/definitions/date"
+        },
+        "lastSplitDate": {
+          "$ref": "#/definitions/date"
+        },
+        "lastSplitFactor": {
+          "type": "string"
+        },
+        "legalType": {
+          "type": "string"
+        },
+        "morningStarOverallRating": {
+          "type": "number"
+        },
+        "morningStarRiskRating": {
+          "type": "number"
+        },
+        "mostRecentQuarter": {
+          "$ref": "#/definitions/date"
+        },
+        "netIncomeToCommon": {
+          "type": "number"
+        },
+        "nextFiscalYearEnd": {
+          "$ref": "#/definitions/date"
+        },
+        "pegRatio": {
+          "type": "number"
+        },
+        "priceHint": {
+          "type": "number"
+        },
+        "priceToBook": {
+          "type": "number"
+        },
+        "priceToSalesTrailing12Months": {
+          "type": "number"
+        },
+        "profitMargins": {
+          "type": "number"
+        },
+        "revenueQuarterlyGrowth": {
+          "type": "number"
+        },
+        "sharesOutstanding": {
+          "type": "number"
+        },
+        "sharesPercentSharesOut": {
+          "$ref": "#/definitions/percentage"
+        },
+        "sharesShort": {
+          "type": "number"
+        },
+        "sharesShortPreviousMonthDate": {
+          "$ref": "#/definitions/date"
+        },
+        "sharesShortPriorMonth": {
+          "type": "number"
+        },
+        "shortPercentOfFloat": {
+          "$ref": "#/definitions/percentage"
+        },
+        "shortRatio": {
+          "type": "number"
+        },
+        "threeYearAverageReturn": {
+          "type": "number"
+        },
+        "totalAssets": {
+          "type": "number"
+        },
+        "trailingEps": {
+          "type": "number"
+        },
+        "yield": {
+          "type": "number"
+        },
+        "ytdReturn": {
+          "type": "number"
+        }
+      }
+    },
+    "yh_sustainability": {
+      "type": "object",
+      "properties": {
+        "ratingyear": {
+          "type": "integer",
+          "description": "year of rating"
+        },
+        "ratingmonth": {
+          "type": "integer",
+          "description": "month of rating",
+          "minimum": 1,
+          "maximum": 12
+        },
+        "totalEsg": {
+          "type": "number",
+          "description": "total ESG score for the stock",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "environmentScore": {
+          "type": "number",
+          "description": "environment score for the stock",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "socialScore": {
+          "type": "number",
+          "description": "social score for the stock",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "governanceScore": {
+          "type": "number",
+          "description": "governance score for the stock",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "highestControversy": {
+          "type": "number",
+          "description": "highest controversy score for the stock",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "esgPerformance": {
+          "type": "string",
+          "description": "Performance category for the stock"
+        },
+        "peerCount": {
+          "type": "integer",
+          "description": "number of peers used for peer comparison",
+          "minimum": 0
+        },
+        "peerGroup": {
+          "type": "string",
+          "description": "peer group to which the stock belongs"
+        },
+        "relatedControversy": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "description of the controversy"
+          }
+        },
+        "peerEsgScorePerformance_min": {
+          "type": "number",
+          "description": "min total esg score peers ",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerEsgScorePerformance_avg": {
+          "type": "number",
+          "description": "avg total esg score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerEsgScorePerformance_max": {
+          "type": "number",
+          "description": "max total esg score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerGovernancePerformance_min": {
+          "type": "number",
+          "description": "min governance score peers ",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerGovernancePerformance_avg": {
+          "type": "number",
+          "description": "avg governance score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerGovernancePerformance_max": {
+          "type": "number",
+          "description": "max governance score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerSocialPerformance_min": {
+          "type": "number",
+          "description": "min social score peers ",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerSocialPerformance_avg": {
+          "type": "number",
+          "description": "avg social score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerSocialPerformance_max": {
+          "type": "number",
+          "description": "max social score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerEnvironmentPerformance_min": {
+          "type": "number",
+          "description": "min environment score peers ",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerEnvironmentPerformance_avg": {
+          "type": "number",
+          "description": "avg environment score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerEnvironmentPerformance_max": {
+          "type": "number",
+          "description": "max environment score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerHighestControversyPerformance_min": {
+          "type": "number",
+          "description": "min highest controversy score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerHighestControversyPerformance_avg": {
+          "type": "number",
+          "description": "avg highest controversy score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "peerHighestControversyPerformance_max": {
+          "type": "number",
+          "description": "max highest controversy score peers",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "percentile": {
+          "type": "number",
+          "description": "total percentile compared to peer group",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "environmentPercentile": {
+          "type": "number",
+          "description": "environment percentile compare to peer group",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "socialPercentile": {
+          "type": "number",
+          "description": "social percentile compared to peer group",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "governancePercentile": {
+          "type": "number",
+          "description": "governance percentile compared to peer group",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "controversyOverview": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "description of controversy"
+          }
+        }
+      }
+    },
+    "majorHoldersBreakDown": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "$ref": "#/definitions/date"
+        },
+        "insidersPercentHeld": {
+          "$ref": "#/definitions/percentage"
+        },
+        "institutionsPercentHeld": {
+          "$ref": "#/definitions/percentage"
+        },
+        "institutionsFloatPercentHeld": {
+          "$ref": "#/definitions/percentage"
+        },
+        "institutionsCount": {
+          "type": "integer",
+          "description": "number of institutions owning shares"
+        }
+      }
+    }
+  }
+}
