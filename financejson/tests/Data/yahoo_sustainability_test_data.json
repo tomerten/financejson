@@ -7,7 +7,22 @@
     "ratingyear" : 2019,
     "ratingmont" : 9,
     "totalEsg": 12.4,
-    "controversyOverview": ["alcohol","nuclear"]
+    "controversyOverview": [
+      "alcohol",
+      "nuclear"
+    ]
+  },
+  "yh_earnings": {
+    "quarterly": {"date": "4Q2018"},
+    "yearly": {"date": "1Q2010"}
+  },
+  "yh_indexTrend": {
+    "estimates": [
+      {"growth": 1, "period": "+1q"},
+      {"growth": 1, "period": "-1q"},
+      {"growth": 1, "period": "1q"},
+      {"growth": 1, "period": "+1y"}
+    ]
   }
 }
 
