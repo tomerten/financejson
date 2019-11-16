@@ -12,7 +12,11 @@ validate = fastjsonschema.compile(schema)
 
 
 def validate_file(file_path: str):
-    with open(file_path) as lattice_file:
-        data = json.load(lattice_file)
+    with open(file_path) as finance_file:
+        data = json.load(finance_file)
 
     validate(data)
+
+
+def validate_dict(dc: dict):
+    validate(dc)

@@ -822,33 +822,56 @@
                     "properties": {
                       "date": {
                         "type": "string",
-                        "pattern": "^[1-4]Q[0-9]{3}"
+                        "pattern": "^[1-4]Q[0-9]{4}"
                       },
-                      "earnings": {
+                      "actual": {
                         "type": "number"
                       },
-                      "revenue": {
+                      "estimate": {
                         "type": "number"
                       }
                     }
                   }
-                },
-                "yearly": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "date": {
-                        "type": "string",
-                        "pattern": "^[1-4]Q[0-9]{3}"
-                      },
-                      "earnings": {
-                        "type": "number"
-                      },
-                      "revenue": {
-                        "type": "number"
-                      }
-                    }
+                }
+              }
+            }
+          }
+        },
+        "financialChart": {
+          "type": "object",
+          "properties": {
+            "quarterly": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "type": "string",
+                    "pattern": "^[1-4]Q[0-9]{4}"
+                  },
+                  "earnings": {
+                    "type": "number"
+                  },
+                  "revenue": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "yearly": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "type": "string",
+                    "pattern": "^[1-4]Q[0-9]{4}"
+                  },
+                  "earnings": {
+                    "type": "number"
+                  },
+                  "revenue": {
+                    "type": "number"
                   }
                 }
               }
@@ -2275,7 +2298,6 @@
         }
       }
     }
-
   }
 }
 
