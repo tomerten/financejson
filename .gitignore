@@ -16,3 +16,6 @@ sdist/
 wheels/
 *.egg
 *.egg-info/
+
+# Testdata
+financejson/tests/Data/test.json

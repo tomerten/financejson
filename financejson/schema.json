@@ -83,6 +83,11 @@
       "format": "date-time"
     },
     "officer": {
+      "description": "company officers",
+      "required": [
+        "name",
+        "title"
+      ],
       "type": "object",
       "properties": {
         "date": {
@@ -167,7 +172,14 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["date","open","high","low","close","volume"],
+        "required": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume"
+        ],
         "properties": {
           "date": {
             "$ref": "#/definitions/date"
@@ -196,6 +208,15 @@
       }
     },
     "yh_price_data_1m": {
+      "description": "yahoo 1 minute price data",
+      "required": [
+        "datetime",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ],
       "type": "array",
       "items": {
         "type": "object",
@@ -218,6 +239,10 @@
           "close": {
             "type": "number",
             "description": "minute by minute close price"
+          },
+          "volume": {
+            "type": "number",
+            "description": "minute by minute volume"
           }
         },
         "additionalProperties": false
@@ -227,69 +252,76 @@
       "type": "object",
       "properties": {
         "date": {
+          "description": "Date assetProfile",
           "$ref": "#/definitions/date"
         },
         "address1": {
+          "description": "company address",
           "type": "string"
         },
         "auditRisk": {
+          "description": "company audit risk",
           "type": "integer"
         },
         "boardRisk": {
+          "description": "company board risk",
           "type": "integer"
         },
         "city": {
+          "description": "city company head-quarters is located",
           "type": "string"
         },
         "companyOfficers": {
+          "description": "overview of the company officers (CEO,FCO,...)",
           "type": "array",
           "items": {
             "$ref": "#/definitions/officer"
           }
+        },
+        "compensationAsOfEpochDate": {
+          "description": "Linux date (integer) compensation epoch date",
+          "type": "integer"
+        },
+        "compensationRisk": {
+          "type": "integer"
+        },
+        "country": {
+          "type": "string"
+        },
+        "fullTimeEmployees": {
+          "type": "integer"
+        },
+        "governanceEpochDate": {
+          "type": "integer"
+        },
+        "industry": {
+          "type": "string"
+        },
+        "longBusinessSummary": {
+          "type": "string"
+        },
+        "overallRisk": {
+          "type": "integer"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "shareHolderRightsRisk": {
+          "type": "integer"
+        },
+        "state": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "zip": {
+          "type": "string"
         }
-      },
-      "compensationAsOfEpochDate": {
-        "$ref": "#/definitions/date"
-      },
-      "compensationRisk": {
-        "type": "integer"
-      },
-      "country": {
-        "type": "integer"
-      },
-      "fullTimeEmployees": {
-        "type": "integer"
-      },
-      "governanceEpochDate": {
-        "$ref": "#/definitions/date"
-      },
-      "industry": {
-        "type": "string"
-      },
-      "longBusinessSummary": {
-        "type": "string"
-      },
-      "overallRisk": {
-        "type": "integer"
-      },
-      "phone": {
-        "type": "string"
-      },
-      "sector": {
-        "type": "string"
-      },
-      "shareHolderRightsRisk": {
-        "type": "integer"
-      },
-      "state": {
-        "type": "string"
-      },
-      "website": {
-        "type": "string",
-        "format": "uri"
-      },
-      "zip": {
-        "type": "string"
       }
     },
     "yh_balanceSheetStatementsYearly": {
@@ -297,9 +329,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "last_update": {
-            "$ref": "#/definitions/date"
-          },
           "accountsPayable": {
             "type": "number"
           },
@@ -2239,7 +2268,7 @@
       "items": {
         "type": "object",
         "properties": {
-          "year" : {
+          "year": {
             "type": "integer"
           },
           "CurrentRatio": {

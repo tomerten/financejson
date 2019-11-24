@@ -214,7 +214,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_3():
         "ms_symbol": "US_AAPL",
         "yh_price_data_1d": [
             {
-                "date": "01-01-2019 12:00:00.000T+0400",
+                "date": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
                 "low": 3,
@@ -227,7 +227,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_3():
         validate_dict(dc)
 
 
-def test_validate_dict___yh_price_data_1d___nok_wrong_field_type():
+def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_open():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
@@ -244,6 +244,278 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type():
     }
     with raises(JsonSchemaException):
         validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_high():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "date": "2019-01-01",
+                "open": 1,
+                "high": "boe",
+                "low": 3,
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_low():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "date": "2019-01-01",
+                "open": 1,
+                "high": 2,
+                "low": "boe",
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_close():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "date": "2019-01-01",
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": "boe",
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_volume():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "date": "2019-01-01",
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": 4,
+                "volume": "1"
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict____yh_price_data_1m_ok():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1m": [
+            {
+                "datetime": "2018-11-13T20:20:39+00:00",
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    validate_dict(dc)
+
+
+def test_validate_dict____yh_price_data_1m___nok_missing_fields():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": 4,
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1m___nok_wrong_date_format_1():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "datetime": "13-11-2018T20:20:39+00:00",
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_open():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "datetime": "2018-11-13T20:20:39+00:00",
+                "open": "boe",
+                "high": 2,
+                "low": 3,
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_high():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "datetime": "2018-11-13T20:20:39+00:00",
+                "open": 1,
+                "high": "2",
+                "low": 3,
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_low():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "datetime": "2018-11-13T20:20:39+00:00",
+                "open": 1,
+                "high": 2,
+                "low": "3",
+                "close": 4,
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_close():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "datetime": "2018-11-13T20:20:39+00:00",
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": "4",
+                "volume": 5
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_volume():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_price_data_1d": [
+            {
+                "datetime": "2018-11-13T20:20:39+00:00",
+                "open": 1,
+                "high": 2,
+                "low": 3,
+                "close": 4,
+                "volume": "5"
+            }
+        ]
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_assetprofile___ok():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_assetProfile":
+            {
+                "date": "2019-01-01",
+                "address1": "foo",
+                "auditRisk": 1,
+                "boardRisk": 2,
+                "city": "bar",
+                "companyOfficers": [
+                    {
+                        "name": "boe",
+                        "title": "CEO"
+                    }
+                ],
+                "country": "a"
+            }
+    }
+    validate_dict(dc)
+
+
+def test_validate_dict___yh_assetprofile___nok_missing_field():
+    dc = {
+        "yh_symbol": "AAPL",
+        "ms_symbol": "US_AAPL",
+        "yh_assetProfile":
+            {
+                "date": "2019-01-01",
+                "address1": "foo",
+                "auditRisk": 1,
+                "boardRisk": 2,
+                "city": "bar",
+                "companyOfficers": [
+                    {
+                        "title": "CEO"
+                    }
+                ]
+            }
+    }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
 
 # def test_validate___yh_symbol_1(tmp_path):
 #     data = {'yh_symbol' : 'AAPL'}
