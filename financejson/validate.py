@@ -19,4 +19,4 @@ def validate_file(file_path: str):
 
 
 def validate_dict(dc: dict):
-    validate(dc)
+        validate(dc)

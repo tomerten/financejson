@@ -71,8 +71,8 @@
     },
     "percentchange": {
       "type": "number",
-      "minimum": -100,
-      "maximum": 100
+      "minimum": -1000,
+      "maximum": 1000
     },
     "date": {
       "type": "string",
@@ -159,12 +159,15 @@
       "description": "yahoo currency"
     },
     "ms_currency": {
-      "$ref": "#/definitions/currency"
+      "$ref": "#/definitions/currency",
+      "description": "morningstar currency"
     },
     "yh_price_data_1d": {
+      "description": "yahoo daily OHLCV data",
       "type": "array",
       "items": {
         "type": "object",
+        "required": ["date","open","high","low","close","volume"],
         "properties": {
           "date": {
             "$ref": "#/definitions/date"
@@ -183,7 +186,11 @@
           },
           "close": {
             "type": "number",
-            "description": "dialy close price"
+            "description": "daily close price"
+          },
+          "volume": {
+            "type": "number",
+            "description": "daily volume"
           }
         }
       }
@@ -633,7 +640,7 @@
         }
       }
     },
-    "yh_KeyStatistics": {
+    "yh_keyStatistics": {
       "type": "object",
       "properties": {
         "last_updated": {
@@ -2223,6 +2230,44 @@
           },
           "year": {
             "type": "integer"
+          }
+        }
+      }
+    },
+    "ms_liquidity": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "year" : {
+            "type": "integer"
+          },
+          "CurrentRatio": {
+            "type": "number"
+          },
+          "QuickRatio": {
+            "type": "number"
+          },
+          "FinancialLeverage": {
+            "type": "number"
+          },
+          "Debt/Equity": {
+            "type": "number"
+          },
+          "currency": {
+            "$ref": "#/definitions/currency"
+          },
+          "name_ms": {
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          },
+          "region_ticker": {
+            "type": "string"
+          },
+          "ticker": {
+            "type": "string"
           }
         }
       }
