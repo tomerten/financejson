@@ -1,27 +1,47 @@
 {
-  "yh_symbol" : "AAPL",
-  "ms_symbol" : "AAPL",
-  "yh_currency" : "USD",
-  "ms_currency" : "USD",
-  "yh_sustainability": {
-    "ratingyear" : 2019,
-    "ratingmont" : 9,
-    "totalEsg": 12.4,
-    "controversyOverview": [
-      "alcohol",
-      "nuclear"
-    ]
+  "yh_symbol": "XYZ",
+  "ms_symbol": "US_XYZ",
+  "yh_currency": "USD",
+  "ms_currency": "USD",
+  "yh_esgScores": {
+    "ratingYear": 2019,
+    "ratingMonth": 9,
+    "totalEsg": 12.4
   },
   "yh_earnings": {
-    "quarterly": {"date": "4Q2018"},
-    "yearly": {"date": "1Q2010"}
+    "earningsChart": {
+      "quarterly": [
+        {
+          "date": "4Q2018"
+        }
+      ]
+    },
+    "financialsChart": {
+      "yearly": [
+        {
+          "date": 2019
+        }
+      ]
+    }
   },
   "yh_indexTrend": {
     "estimates": [
-      {"growth": 1, "period": "+1q"},
-      {"growth": 1, "period": "-1q"},
-      {"growth": 1, "period": "1q"},
-      {"growth": 1, "period": "+1y"}
+      {
+        "growth": 1,
+        "period": "+1q"
+      },
+      {
+        "growth": 1,
+        "period": "-1q"
+      },
+      {
+        "growth": 1,
+        "period": "1q"
+      },
+      {
+        "growth": 1,
+        "period": "+1y"
+      }
     ]
   }
 }

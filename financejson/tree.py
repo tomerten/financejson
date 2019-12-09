@@ -45,7 +45,8 @@ class Tree:
         # need the keys of one of the elements
         # in case data is a list
         if isinstance(dc, list):
-            dc = dc[0]
+            if isinstance(dc[0], dict):
+                dc = dc[0]
 
         for i in range(len(dc)):
             k = list(dc.keys())[i]
@@ -53,14 +54,15 @@ class Tree:
             self.register(v)
 
             if i == len(dc) - 1:
-                self.outstr += f'{prefix}└─── {k}\n'
+                self.outstr += f'{prefix}└─── {k} ({type(v)})\n'
                 if isinstance(v, dict):
                     self.walk(v, prefix + "    ")
                 elif isinstance(v, list):
                     self.walk(v, prefix + "    ")
             else:
-                self.outstr += f'{prefix}├─── {k}\n'
+                self.outstr += f'{prefix}├─── {k} ({type(v)})\n'
                 if isinstance(v, dict):
                     self.walk(v, prefix + "|   ")
                 elif isinstance(v, list):
-                    self.walk(v, prefix + "|   ")
+                    if isinstance(v[0], dict):
+                        self.walk(v[0], prefix + "|   ")

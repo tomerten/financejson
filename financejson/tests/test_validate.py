@@ -139,7 +139,7 @@ def test_validate_dict____yh_price_data_1d_ok():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
                 "open": 1,
@@ -157,7 +157,7 @@ def test_validate_dict____yh_price_data_1d___nok_missing_fields():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "open": 1,
                 "high": 2,
@@ -174,7 +174,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_1():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "19-01-01",
                 "open": 1,
@@ -193,7 +193,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_2():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "01-01-2019",
                 "open": 1,
@@ -212,7 +212,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_3():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2018-11-13T20:20:39+00:00",
                 "open": 1,
@@ -231,7 +231,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_open():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
                 "open": "boe",
@@ -250,7 +250,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_high():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
                 "open": 1,
@@ -269,7 +269,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_low():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
                 "open": 1,
@@ -288,7 +288,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_close():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
                 "open": 1,
@@ -307,7 +307,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_volume():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
                 "open": 1,
@@ -326,7 +326,7 @@ def test_validate_dict____yh_price_data_1m_ok():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1m": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
@@ -344,7 +344,7 @@ def test_validate_dict____yh_price_data_1m___nok_missing_fields():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "open": 1,
                 "high": 2,
@@ -361,7 +361,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_date_format_1():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "13-11-2018T20:20:39+00:00",
                 "open": 1,
@@ -380,7 +380,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_open():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": "boe",
@@ -399,7 +399,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_high():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
@@ -418,7 +418,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_low():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
@@ -437,7 +437,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_close():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
@@ -456,7 +456,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_volume():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_price_data_1d": [
+        "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
@@ -494,7 +494,7 @@ def test_validate_dict___yh_assetprofile___ok():
     validate_dict(dc)
 
 
-def test_validate_dict___yh_assetprofile___nok_missing_field():
+def test_validate_dict___yh_assetprofile___nok_missing_field_companyofficers():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
@@ -515,14 +515,3 @@ def test_validate_dict___yh_assetprofile___nok_missing_field():
     with raises(JsonSchemaException):
         validate_dict(dc)
 
-
-
-# def test_validate___yh_symbol_1(tmp_path):
-#     data = {'yh_symbol' : 'AAPL'}
-#     d = tmp_path / "sub"
-#     d.mkdir()
-#     p = d / "yh_symbol.json"
-#     with open(p,'w') as f:
-#         json.dump(data,f)
-#     # p.write_text(data)
-#     v

@@ -18,13 +18,13 @@ in form of a [JSON Schema](https://json-schema.org).
 A FinanceJSON file for a stock:
 ```json
 {
-  "yh_symbol" : "AAPL",
-  "ms_symbol" : "AAPL",
-  "yh_currency" : "USD",
-  "ms_currency" : "USD",
-  "yh_sustainability": {
-    "ratingyear" : 2019,
-    "ratingmont" : 9,
+  "yh_symbol": "XYZ",
+  "ms_symbol": "US_XYZ",
+  "yh_currency": "USD",
+  "ms_currency": "USD",
+  "yh_esgScores": {
+    "ratingyear": 2019,
+    "ratingmonth": 9,
     "totalEsg": 12.4,
     "controversyOverview": [
       "alcohol",
@@ -32,15 +32,39 @@ A FinanceJSON file for a stock:
     ]
   },
   "yh_earnings": {
-    "quarterly": {"date": "4Q2018"},
-    "yearly": {"date": "1Q2010"}
+    "earningsChart": {
+      "quarterly": [
+        {
+          "date": "4Q2018"
+        }
+      ]
+    },
+    "financialChart": {
+      "yearly": [
+        {
+          "date": "1Q2010"
+        }
+      ]
+    }
   },
   "yh_indexTrend": {
     "estimates": [
-      {"growth": 1, "period": "+1q"},
-      {"growth": 1, "period": "-1q"},
-      {"growth": 1, "period": "1q"},
-      {"growth": 1, "period": "+1y"}
+      {
+        "growth": 1,
+        "period": "+1q"
+      },
+      {
+        "growth": 1,
+        "period": "-1q"
+      },
+      {
+        "growth": 1,
+        "period": "1q"
+      },
+      {
+        "growth": 1,
+        "period": "+1y"
+      }
     ]
   }
 }
@@ -54,20 +78,26 @@ Version](https://img.shields.io/pypi/pyversions/financejson)](https://pypi.org/p
 [![CI](https://github.com/tomerten/financejson/workflows/CI/badge.svg)](https://github.com/tomerten/financejson/actions?query=workflow%3ACI)
 
 This repository also contains a Python based commandline tool which is able 
-validate and extract data from financeJSON files.
+validate and extract data from financeJSON files. It also emulate the linux ``tree``
+command, printing out a tree structure of the JSON data.
 
 Validate a financeJSON file:
-```sh
+```bash
 financejson validate /path/to/financejsonfile
 ```
 
+Print tree structure of financeJSON file:
+```bash
+financejson treejson /path/to/financejsonfile
+```
+
 Convert a financeJSON file into an HDF5 file:
-```sh
+```bash
 financejson convert json hdf5 /path/to/financejsonfile
 ```
 
 Convert a financeJSON file into an Excel readable file:
-```sh
+```bash
 financejson convert json excel /path/to/financejsonfile
 ```
 ## License

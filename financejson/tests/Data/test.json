@@ -243,7 +243,7 @@
       "Dividends": 0.77,
       "PayoutRatio": 6.5,
       "Shares": 4649,
-      "BookValuePerShare": 500.71,
+      "BookValuePerShare": 495.19,
       "OperatingCashFlow": 69391,
       "CapSpending": -10495,
       "FreeCashFlow": 58896,
@@ -1009,8 +1009,8 @@
     "country": "United States",
     "phone": "408-996-1010",
     "website": "http://www.apple.com",
-    "industry": "Electronic Equipment",
-    "sector": "Consumer Goods",
+    "industry": "Consumer Electronics",
+    "sector": "Technology",
     "longBusinessSummary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. It also sells various related services. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch, and other Apple-branded and third-party accessories. It also provides digital content stores and streaming services; AppleCare support services; and iCloud, a cloud service, which stores music, photos, contacts, calendars, mail, documents, and others. In addition, the company offers various service, such as Apple Arcade, a game subscription service; Apple Card, a co-branded credit card; Apple News+, a subscription news and magazine service; and Apple Pay, a cashless payment service, as well as licenses its intellectual property, and provides other related services. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It sells and delivers third-party applications for its products through the App Store, Mac App Store, and Watch App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1977 and is headquartered in Cupertino, California.",
     "fullTimeEmployees": 137000,
     "companyOfficers": [
@@ -1281,6 +1281,6535 @@
       "otherStockholderEquity": -3588000000.0,
       "totalStockholderEquity": 117892000000.0,
       "netTangibleAssets": 117892000000.0
+    }
+  ],
+  "yh_calendarEvents": {
+    "earnings": {
+      "earningsDate": "2020-01-27",
+      "earningsAverage": 4.5,
+      "earningsLow": 4.37,
+      "earningsHigh": 4.7,
+      "revenueAverage": 87947300000.0,
+      "revenueLow": 86754500000.0,
+      "revenueHigh": 89203900000.0
+    },
+    "exDividendDate": "2019-11-07",
+    "dividendDate": "2019-11-14"
+  },
+  "yh_cashflowStatementsYearly": [
+    {
+      "endDate": "2019-09-28",
+      "netIncome": 55256000000.0,
+      "depreciation": 12547000000.0,
+      "changeToNetincome": 5076000000.0,
+      "changeToAccountReceivables": 245000000.0,
+      "changeToLiabilities": -2548000000.0,
+      "changeToInventory": -289000000.0,
+      "changeToOperatingActivities": -896000000.0,
+      "totalCashFromOperatingActivities": 69391000000.0,
+      "capitalExpenditures": -10495000000.0,
+      "investments": 58093000000.0,
+      "otherCashflowsFromInvestingActivities": -1078000000.0,
+      "totalCashflowsFromInvestingActivities": 45896000000.0,
+      "dividendsPaid": -14119000000.0,
+      "netBorrowings": -7819000000.0,
+      "otherCashflowsFromFinancingActivities": -105000000.0,
+      "totalCashFromFinancingActivities": -90976000000.0,
+      "changeInCash": 24311000000.0,
+      "repurchaseOfStock": -69714000000.0,
+      "issuanceOfStock": 781000000.0
+    },
+    {
+      "endDate": "2018-09-29",
+      "netIncome": 59531000000.0,
+      "depreciation": 10903000000.0,
+      "changeToNetincome": -27694000000.0,
+      "changeToAccountReceivables": -5322000000.0,
+      "changeToLiabilities": 9172000000.0,
+      "changeToInventory": 828000000.0,
+      "changeToOperatingActivities": 30016000000.0,
+      "totalCashFromOperatingActivities": 77434000000.0,
+      "capitalExpenditures": -13313000000.0,
+      "investments": 30845000000.0,
+      "otherCashflowsFromInvestingActivities": -745000000.0,
+      "totalCashflowsFromInvestingActivities": 16066000000.0,
+      "dividendsPaid": -13712000000.0,
+      "netBorrowings": 432000000.0,
+      "otherCashflowsFromFinancingActivities": -105000000.0,
+      "totalCashFromFinancingActivities": -87876000000.0,
+      "changeInCash": 5624000000.0,
+      "repurchaseOfStock": -75265000000.0,
+      "issuanceOfStock": 669000000.0
+    },
+    {
+      "endDate": "2017-09-30",
+      "netIncome": 48351000000.0,
+      "depreciation": 10157000000.0,
+      "changeToNetincome": 10640000000.0,
+      "changeToAccountReceivables": -2093000000.0,
+      "changeToLiabilities": 8373000000.0,
+      "changeToInventory": -2723000000.0,
+      "changeToOperatingActivities": -8480000000.0,
+      "totalCashFromOperatingActivities": 64225000000.0,
+      "capitalExpenditures": -12451000000.0,
+      "investments": -33542000000.0,
+      "otherCashflowsFromInvestingActivities": -124000000.0,
+      "totalCashflowsFromInvestingActivities": -46446000000.0,
+      "dividendsPaid": -12769000000.0,
+      "netBorrowings": 29014000000.0,
+      "otherCashflowsFromFinancingActivities": -105000000.0,
+      "totalCashFromFinancingActivities": -17974000000.0,
+      "changeInCash": -195000000.0,
+      "repurchaseOfStock": -34774000000.0,
+      "issuanceOfStock": 555000000.0
+    },
+    {
+      "endDate": "2016-09-24",
+      "netIncome": 45687000000.0,
+      "depreciation": 10505000000.0,
+      "changeToNetincome": 9634000000.0,
+      "changeToAccountReceivables": 527000000.0,
+      "changeToLiabilities": 563000000.0,
+      "changeToInventory": 217000000.0,
+      "changeToOperatingActivities": -902000000.0,
+      "totalCashFromOperatingActivities": 66231000000.0,
+      "capitalExpenditures": -12734000000.0,
+      "investments": -32022000000.0,
+      "otherCashflowsFromInvestingActivities": -924000000.0,
+      "totalCashflowsFromInvestingActivities": -45977000000.0,
+      "dividendsPaid": -12150000000.0,
+      "netBorrowings": 22057000000.0,
+      "otherCashflowsFromFinancingActivities": -105000000.0,
+      "totalCashFromFinancingActivities": -20890000000.0,
+      "changeInCash": -636000000.0,
+      "repurchaseOfStock": -31292000000.0,
+      "issuanceOfStock": 495000000.0
+    }
+  ],
+  "yh_cashflowStatementsQuarterly": [
+    {
+      "endDate": "2019-09-28",
+      "netIncome": 13686000000.0,
+      "depreciation": 3179000000.0,
+      "changeToNetincome": 885000000.0,
+      "changeToAccountReceivables": -8768000000.0,
+      "changeToLiabilities": 18032000000.0,
+      "changeToInventory": -785000000.0,
+      "changeToOperatingActivities": -6319000000.0,
+      "totalCashFromOperatingActivities": 19910000000.0,
+      "capitalExpenditures": -2777000000.0,
+      "investments": 2802000000.0,
+      "otherCashflowsFromInvestingActivities": -810000000.0,
+      "totalCashflowsFromInvestingActivities": -798000000.0,
+      "dividendsPaid": -3479000000.0,
+      "netBorrowings": -293000000.0,
+      "otherCashflowsFromFinancingActivities": -22000000.0,
+      "totalCashFromFinancingActivities": -21039000000.0,
+      "changeInCash": -1927000000.0,
+      "repurchaseOfStock": -17635000000.0,
+      "issuanceOfStock": 390000000.0
+    },
+    {
+      "endDate": "2019-06-29",
+      "netIncome": 10044000000.0,
+      "depreciation": 2933000000.0,
+      "changeToNetincome": 1457000000.0,
+      "changeToAccountReceivables": 919000000.0,
+      "changeToLiabilities": -16000000.0,
+      "changeToInventory": 1502000000.0,
+      "changeToOperatingActivities": -5203000000.0,
+      "totalCashFromOperatingActivities": 11636000000.0,
+      "capitalExpenditures": -2000000000.0,
+      "investments": 30120000000.0,
+      "otherCashflowsFromInvestingActivities": -298000000.0,
+      "totalCashflowsFromInvestingActivities": 27502000000.0,
+      "dividendsPaid": -3629000000.0,
+      "netBorrowings": -5026000000.0,
+      "otherCashflowsFromFinancingActivities": 4000000.0,
+      "totalCashFromFinancingActivities": -26804000000.0,
+      "changeInCash": 12334000000.0,
+      "repurchaseOfStock": -18154000000.0,
+      "issuanceOfStock": 1000000.0
+    },
+    {
+      "endDate": "2019-03-30",
+      "netIncome": 11561000000.0,
+      "depreciation": 3040000000.0,
+      "changeToNetincome": 1176000000.0,
+      "changeToAccountReceivables": 2964000000.0,
+      "changeToLiabilities": -11693000000.0,
+      "changeToInventory": 70000000.0,
+      "changeToOperatingActivities": 4037000000.0,
+      "totalCashFromOperatingActivities": 11155000000.0,
+      "capitalExpenditures": -2363000000.0,
+      "investments": 15749000000.0,
+      "otherCashflowsFromInvestingActivities": 86000000.0,
+      "totalCashflowsFromInvestingActivities": 13348000000.0,
+      "dividendsPaid": -3443000000.0,
+      "netBorrowings": -2506000000.0,
+      "otherCashflowsFromFinancingActivities": -87000000.0,
+      "totalCashFromFinancingActivities": -29457000000.0,
+      "changeInCash": -4954000000.0,
+      "repurchaseOfStock": -23811000000.0,
+      "issuanceOfStock": 390000000.0
+    },
+    {
+      "endDate": "2018-12-29",
+      "netIncome": 19965000000.0,
+      "depreciation": 3395000000.0,
+      "changeToNetincome": 1558000000.0,
+      "changeToAccountReceivables": 5130000000.0,
+      "changeToLiabilities": -8871000000.0,
+      "changeToInventory": -1076000000.0,
+      "changeToOperatingActivities": 6589000000.0,
+      "totalCashFromOperatingActivities": 26690000000.0,
+      "capitalExpenditures": -3355000000.0,
+      "investments": 9422000000.0,
+      "otherCashflowsFromInvestingActivities": -56000000.0,
+      "totalCashflowsFromInvestingActivities": 5844000000.0,
+      "dividendsPaid": -3568000000.0,
+      "netBorrowings": 6000000.0,
+      "otherCashflowsFromFinancingActivities": -87000000.0,
+      "totalCashFromFinancingActivities": -13676000000.0,
+      "changeInCash": 18858000000.0,
+      "repurchaseOfStock": -10114000000.0,
+      "issuanceOfStock": 390000000.0
+    }
+  ],
+  "yh_keyStatistics": {
+    "priceHint": 2.0,
+    "enterpriseValue": 1197574062080.0,
+    "forwardPE": 18.024227,
+    "profitMargins": 0.21238,
+    "floatShares": 4189421271.0,
+    "sharesOutstanding": 4519199744.0,
+    "sharesShort": 46016361.0,
+    "sharesShortPriorMonth": 48022677.0,
+    "sharesShortPreviousMonthDate": "2019-10-15",
+    "dateShortInterest": "2019-11-15",
+    "sharesPercentSharesOut": 1.04,
+    "heldPercentInsiders": 0.07,
+    "heldPercentInstitutions": 60.95,
+    "shortRatio": 1.94,
+    "shortPercentOfFloat": 0.97,
+    "beta": 1.246987,
+    "bookValue": 20.365,
+    "priceToBook": 13.151977,
+    "lastFiscalYearEnd": "2019-09-28",
+    "nextFiscalYearEnd": "2021-09-28",
+    "mostRecentQuarter": "2019-09-28",
+    "earningsQuarterlyGrowth": -0.031,
+    "netIncomeToCommon": 55255998464.0,
+    "trailingEps": 11.89,
+    "forwardEps": 14.86,
+    "pegRatio": 2.09,
+    "lastSplitFactor": "1/7",
+    "lastSplitDate": "2014-06-09",
+    "enterpriseToRevenue": 4.603,
+    "enterpriseToEbitda": 15.659,
+    "52WeekChange": 0.47195768,
+    "SandP52WeekChange": 0.14709616
+  },
+  "yh_earnings": {
+    "earningsChart": {
+      "quarterly": [
+        {
+          "date": "4Q2018",
+          "actual": 4.18,
+          "estimate": 4.17
+        },
+        {
+          "date": "1Q2019",
+          "actual": 2.46,
+          "estimate": 2.36
+        },
+        {
+          "date": "2Q2019",
+          "actual": 2.18,
+          "estimate": 2.1
+        },
+        {
+          "date": "3Q2019",
+          "actual": 3.03,
+          "estimate": 2.84
+        }
+      ],
+      "currentQuarterEstimate": 4.5,
+      "currentQuarterEstimateDate": "4Q",
+      "currentQuarterEstimateYear": 2019,
+      "earningsDate": "2020-01-27"
+    },
+    "financialsChart": {
+      "yearly": [
+        {
+          "date": 2016,
+          "revenue": 215639000000.0,
+          "earnings": 45687000000.0
+        },
+        {
+          "date": 2017,
+          "revenue": 229234000000.0,
+          "earnings": 48351000000.0
+        },
+        {
+          "date": 2018,
+          "revenue": 265595000000.0,
+          "earnings": 59531000000.0
+        },
+        {
+          "date": 2019,
+          "revenue": 260174000000.0,
+          "earnings": 55256000000.0
+        }
+      ],
+      "quarterly": [
+        {
+          "date": "4Q2018",
+          "revenue": 84310000000.0,
+          "earnings": 19965000000.0
+        },
+        {
+          "date": "1Q2019",
+          "revenue": 58015000000.0,
+          "earnings": 11561000000.0
+        },
+        {
+          "date": "2Q2019",
+          "revenue": 53809000000.0,
+          "earnings": 10044000000.0
+        },
+        {
+          "date": "3Q2019",
+          "revenue": 64040000000.0,
+          "earnings": 13686000000.0
+        }
+      ]
+    },
+    "financialCurrency": "USD"
+  },
+  "yh_earningsHistory": [
+    {
+      "epsActual": 4.18,
+      "epsEstimate": 4.17,
+      "epsDifference": 0.01,
+      "surprisePercent": 0.2,
+      "quarter": 1546214400.0,
+      "period": "-4q"
+    },
+    {
+      "epsActual": 2.46,
+      "epsEstimate": 2.36,
+      "epsDifference": 0.1,
+      "surprisePercent": 4.2,
+      "quarter": 1553990400.0,
+      "period": "-3q"
+    },
+    {
+      "epsActual": 2.18,
+      "epsEstimate": 2.1,
+      "epsDifference": 0.08,
+      "surprisePercent": 3.8,
+      "quarter": 1561852800.0,
+      "period": "-2q"
+    },
+    {
+      "epsActual": 3.03,
+      "epsEstimate": 2.84,
+      "epsDifference": 0.19,
+      "surprisePercent": 6.7,
+      "quarter": 1569801600.0,
+      "period": "-1q"
+    }
+  ],
+  "yh_earningsTrend": [
+    {
+      "period": "0q",
+      "endDate": "2019-12-31",
+      "growth": 0.077,
+      "earningsEstimate": {
+        "avg": 4.5,
+        "low": 4.37,
+        "high": 4.7,
+        "yearAgoEps": 4.18,
+        "numberOfAnalysts": 35.0,
+        "growth": 0.077
+      },
+      "revenueEstimate": {
+        "avg": 87947300000.0,
+        "low": 86754500000.0,
+        "high": 89203900000.0,
+        "numberOfAnalysts": 31.0
+      },
+      "epsTrend": {
+        "current": 4.5,
+        "7daysAgo": 4.5,
+        "30daysAgo": 4.45,
+        "60daysAgo": 4.42,
+        "90daysAgo": 4.48
+      },
+      "epsRevisions": {
+        "upLast7days": 0.0,
+        "upLast30days": 14.0,
+        "downLast30days": 0.0
+      }
+    },
+    {
+      "period": "+1q",
+      "endDate": "2020-03-31",
+      "growth": 0.134,
+      "earningsEstimate": {
+        "avg": 2.79,
+        "low": 2.31,
+        "high": 3.03,
+        "yearAgoEps": 2.46,
+        "numberOfAnalysts": 34.0,
+        "growth": 0.134
+      },
+      "revenueEstimate": {
+        "avg": 62113300000.0,
+        "low": 57000000000.0,
+        "high": 65619000000.0,
+        "numberOfAnalysts": 31.0
+      },
+      "epsTrend": {
+        "current": 2.79,
+        "7daysAgo": 2.79,
+        "30daysAgo": 2.79,
+        "60daysAgo": 2.78,
+        "90daysAgo": 2.81
+      },
+      "epsRevisions": {
+        "upLast7days": 0.0,
+        "upLast30days": 13.0,
+        "downLast30days": 0.0
+      }
+    },
+    {
+      "period": "0y",
+      "endDate": "2020-09-30",
+      "growth": 0.093,
+      "earningsEstimate": {
+        "avg": 13.0,
+        "low": 11.42,
+        "high": 13.72,
+        "yearAgoEps": 11.89,
+        "numberOfAnalysts": 41.0,
+        "growth": 0.093
+      },
+      "revenueEstimate": {
+        "avg": 274806000000.0,
+        "low": 255500000000.0,
+        "high": 280685000000.0,
+        "numberOfAnalysts": 39.0,
+        "yearAgoRevenue": 260174000000.0,
+        "growth": 0.055999998
+      },
+      "epsTrend": {
+        "current": 13.0,
+        "7daysAgo": 13.0,
+        "30daysAgo": 12.78,
+        "60daysAgo": 12.73,
+        "90daysAgo": 12.79
+      },
+      "epsRevisions": {
+        "upLast7days": 0.0,
+        "upLast30days": 7.0,
+        "downLast30days": 0.0
+      }
+    },
+    {
+      "period": "+1y",
+      "endDate": "2021-09-30",
+      "growth": 0.143,
+      "earningsEstimate": {
+        "avg": 14.86,
+        "low": 12.35,
+        "high": 16.48,
+        "yearAgoEps": 13.0,
+        "numberOfAnalysts": 37.0,
+        "growth": 0.143
+      },
+      "revenueEstimate": {
+        "avg": 295872000000.0,
+        "low": 272000000000.0,
+        "high": 326820000000.0,
+        "numberOfAnalysts": 34.0,
+        "yearAgoRevenue": 274806000000.0,
+        "growth": 0.077
+      },
+      "epsTrend": {
+        "current": 14.86,
+        "7daysAgo": 14.87,
+        "30daysAgo": 14.58,
+        "60daysAgo": 14.34,
+        "90daysAgo": 14.44
+      },
+      "epsRevisions": {
+        "upLast7days": 0.0,
+        "upLast30days": 4.0,
+        "downLast30days": 0.0
+      }
+    },
+    {
+      "period": "+5y",
+      "growth": 0.0986,
+      "earningsEstimate": {},
+      "revenueEstimate": {},
+      "epsTrend": {},
+      "epsRevisions": {}
+    },
+    {
+      "period": "-5y",
+      "growth": 0.08415,
+      "earningsEstimate": {},
+      "revenueEstimate": {},
+      "epsTrend": {},
+      "epsRevisions": {}
+    }
+  ],
+  "yh_esgScores": {
+    "totalEsg": 72.27,
+    "environmentScore": 89.81,
+    "socialScore": 59.98,
+    "governanceScore": 61.38,
+    "ratingYear": 2019,
+    "ratingMonth": 11,
+    "highestControversy": 3.0,
+    "esgPerformance": "OUT_PERF",
+    "peerCount": 57,
+    "peerGroup": "Technology Hardware",
+    "relatedControversy": [
+      "Social Supply Chain Incidents",
+      "Customer Incidents",
+      "Business Ethics Incidents"
+    ],
+    "peerEsgScorePerformance": {
+      "min": 47.72,
+      "avg": 66.11912280701753,
+      "max": 87.41
+    },
+    "peerGovernancePerformance": {
+      "min": 46.9,
+      "avg": 64.1905263157895,
+      "max": 84.5
+    },
+    "peerSocialPerformance": {
+      "min": 43.84,
+      "avg": 64.77122807017544,
+      "max": 89.92
+    },
+    "peerEnvironmentPerformance": {
+      "min": 41.23,
+      "avg": 68.50263157894736,
+      "max": 96.22
+    },
+    "peerHighestControversyPerformance": {
+      "min": 0.0,
+      "avg": 1.5087719298245614,
+      "max": 4.0
+    },
+    "percentile": 83.0,
+    "environmentPercentile": 99.0,
+    "socialPercentile": 56.0,
+    "governancePercentile": 43.0,
+    "adult": false,
+    "alcoholic": false,
+    "animalTesting": false,
+    "catholic": false,
+    "controversialWeapons": false,
+    "smallArms": false,
+    "furLeather": false,
+    "gambling": false,
+    "gmo": false,
+    "militaryContract": false,
+    "nuclear": false,
+    "pesticides": false,
+    "palmOil": false,
+    "coal": false,
+    "tobacco": false
+  },
+  "yh_financial_data": {
+    "currentPrice": 267.84,
+    "targetHighPrice": 325.0,
+    "targetLowPrice": 150.0,
+    "targetMeanPrice": 257.21,
+    "targetMedianPrice": 272.5,
+    "recommendationMean": 2.2,
+    "recommendationKey": "buy",
+    "numberOfAnalystOpinions": 40.0,
+    "totalCash": 100556996608.0,
+    "totalCashPerShare": 22.631,
+    "ebitda": 76476997632.0,
+    "totalDebt": 108046999552.0,
+    "quickRatio": 1.384,
+    "currentRatio": 1.54,
+    "totalRevenue": 260174004224.0,
+    "debtToEquity": 119.405,
+    "revenuePerShare": 56.341,
+    "returnOnAssets": 0.11347,
+    "returnOnEquity": 0.55917,
+    "grossProfits": 98392000000.0,
+    "freeCashflow": 42914250752.0,
+    "operatingCashflow": 69390999552.0,
+    "earningsGrowth": 0.039,
+    "revenueGrowth": 0.018,
+    "grossMargins": 0.37818,
+    "ebitdaMargins": 0.29395,
+    "operatingMargins": 0.24572,
+    "profitMargins": 0.21238,
+    "financialCurrency": "USD"
+  },
+  "yh_fundOwnership": {
+    "ownershipList": [
+      {
+        "reportDate": "2019-06-30",
+        "organization": "Vanguard Total Stock Market Index Fund",
+        "pctHeld": 0.025799999,
+        "position": 114603581.0,
+        "value": 22682340751.0
+      },
+      {
+        "reportDate": "2019-06-30",
+        "organization": "Vanguard 500 Index Fund",
+        "pctHeld": 0.0194,
+        "position": 86017198.0,
+        "value": 17024523828.0
+      },
+      {
+        "reportDate": "2019-08-31",
+        "organization": "SPDR S&P 500 ETF Trust",
+        "pctHeld": 0.0105,
+        "position": 46844080.0,
+        "value": 9778233259.0
+      },
+      {
+        "reportDate": "2019-06-30",
+        "organization": "Vanguard Institutional Index Fund-Institutional Index Fund",
+        "pctHeld": 0.0092,
+        "position": 40812479.0,
+        "value": 8077605843.0
+      },
+      {
+        "reportDate": "2019-08-31",
+        "organization": "Invesco ETF Tr-Invesco QQQ Tr, Series 1 ETF",
+        "pctHeld": 0.0082,
+        "position": 36607628.0,
+        "value": 7641476268.0
+      },
+      {
+        "reportDate": "2019-08-31",
+        "organization": "Fidelity 500 Index Fund",
+        "pctHeld": 0.0081,
+        "position": 36207960.0,
+        "value": 7558049570.0
+      },
+      {
+        "reportDate": "2019-08-31",
+        "organization": "iShares Core S&P 500 ETF",
+        "pctHeld": 0.0073,
+        "position": 32551247.0,
+        "value": 6794747298.0
+      },
+      {
+        "reportDate": "2019-06-30",
+        "organization": "Vanguard Growth Index Fund",
+        "pctHeld": 0.0067000003,
+        "position": 29586718.0,
+        "value": 5855803226.0
+      },
+      {
+        "reportDate": "2019-08-31",
+        "organization": "Select Sector SPDR Fund-Technology",
+        "pctHeld": 0.004,
+        "position": 17739430.0,
+        "value": 3702928618.0
+      },
+      {
+        "reportDate": "2019-05-31",
+        "organization": "Vanguard Information Technology Index Fund",
+        "pctHeld": 0.0039,
+        "position": 17248739.0,
+        "value": 3019736736.0
+      }
+    ]
+  },
+  "yh_incomeStatementHistory": [
+    {
+      "endDate": "2019-09-28",
+      "totalRevenue": 260174000000.0,
+      "costOfRevenue": 161782000000.0,
+      "grossProfit": 98392000000.0,
+      "researchDevelopment": 16217000000.0,
+      "sellingGeneralAdministrative": 18245000000.0,
+      "totalOperatingExpenses": 196244000000.0,
+      "operatingIncome": 63930000000.0,
+      "totalOtherIncomeExpenseNet": 1807000000.0,
+      "ebit": 63930000000.0,
+      "interestExpense": -3576000000.0,
+      "incomeBeforeTax": 65737000000.0,
+      "incomeTaxExpense": 10481000000.0,
+      "netIncomeFromContinuingOps": 55256000000.0,
+      "netIncome": 55256000000.0,
+      "netIncomeApplicableToCommonShares": 55256000000.0
+    },
+    {
+      "endDate": "2018-09-29",
+      "totalRevenue": 265595000000.0,
+      "costOfRevenue": 163756000000.0,
+      "grossProfit": 101839000000.0,
+      "researchDevelopment": 14236000000.0,
+      "sellingGeneralAdministrative": 16705000000.0,
+      "totalOperatingExpenses": 194697000000.0,
+      "operatingIncome": 70898000000.0,
+      "totalOtherIncomeExpenseNet": 2005000000.0,
+      "ebit": 70898000000.0,
+      "interestExpense": -3240000000.0,
+      "incomeBeforeTax": 72903000000.0,
+      "incomeTaxExpense": 13372000000.0,
+      "netIncomeFromContinuingOps": 59531000000.0,
+      "netIncome": 59531000000.0,
+      "netIncomeApplicableToCommonShares": 59531000000.0
+    },
+    {
+      "endDate": "2017-09-30",
+      "totalRevenue": 229234000000.0,
+      "costOfRevenue": 141048000000.0,
+      "grossProfit": 88186000000.0,
+      "researchDevelopment": 11581000000.0,
+      "sellingGeneralAdministrative": 15261000000.0,
+      "totalOperatingExpenses": 167890000000.0,
+      "operatingIncome": 61344000000.0,
+      "totalOtherIncomeExpenseNet": 2745000000.0,
+      "ebit": 61344000000.0,
+      "interestExpense": -2323000000.0,
+      "incomeBeforeTax": 64089000000.0,
+      "incomeTaxExpense": 15738000000.0,
+      "netIncomeFromContinuingOps": 48351000000.0,
+      "netIncome": 48351000000.0,
+      "netIncomeApplicableToCommonShares": 48351000000.0
+    },
+    {
+      "endDate": "2016-09-24",
+      "totalRevenue": 215639000000.0,
+      "costOfRevenue": 131376000000.0,
+      "grossProfit": 84263000000.0,
+      "researchDevelopment": 10045000000.0,
+      "sellingGeneralAdministrative": 14194000000.0,
+      "totalOperatingExpenses": 155615000000.0,
+      "operatingIncome": 60024000000.0,
+      "totalOtherIncomeExpenseNet": 1348000000.0,
+      "ebit": 60024000000.0,
+      "interestExpense": -1456000000.0,
+      "incomeBeforeTax": 61372000000.0,
+      "incomeTaxExpense": 15685000000.0,
+      "netIncomeFromContinuingOps": 45687000000.0,
+      "netIncome": 45687000000.0,
+      "netIncomeApplicableToCommonShares": 45687000000.0
+    }
+  ],
+  "yh_incomeStatementHistoryQuarterly": [
+    {
+      "endDate": "2019-09-28",
+      "totalRevenue": 64040000000.0,
+      "costOfRevenue": 39727000000.0,
+      "grossProfit": 24313000000.0,
+      "researchDevelopment": 4110000000.0,
+      "sellingGeneralAdministrative": 4578000000.0,
+      "totalOperatingExpenses": 48415000000.0,
+      "operatingIncome": 15625000000.0,
+      "totalOtherIncomeExpenseNet": 502000000.0,
+      "ebit": 15625000000.0,
+      "interestExpense": -810000000.0,
+      "incomeBeforeTax": 16127000000.0,
+      "incomeTaxExpense": 2441000000.0,
+      "netIncomeFromContinuingOps": 13686000000.0,
+      "netIncome": 13686000000.0,
+      "netIncomeApplicableToCommonShares": 13686000000.0
+    },
+    {
+      "endDate": "2019-06-29",
+      "totalRevenue": 53809000000.0,
+      "costOfRevenue": 33582000000.0,
+      "grossProfit": 20227000000.0,
+      "researchDevelopment": 4257000000.0,
+      "sellingGeneralAdministrative": 4426000000.0,
+      "totalOperatingExpenses": 42265000000.0,
+      "operatingIncome": 11544000000.0,
+      "totalOtherIncomeExpenseNet": 367000000.0,
+      "ebit": 11544000000.0,
+      "interestExpense": -866000000.0,
+      "incomeBeforeTax": 11911000000.0,
+      "incomeTaxExpense": 1867000000.0,
+      "netIncomeFromContinuingOps": 10044000000.0,
+      "netIncome": 10044000000.0,
+      "netIncomeApplicableToCommonShares": 10044000000.0
+    },
+    {
+      "endDate": "2019-03-30",
+      "totalRevenue": 58015000000.0,
+      "costOfRevenue": 36194000000.0,
+      "grossProfit": 21821000000.0,
+      "researchDevelopment": 3948000000.0,
+      "sellingGeneralAdministrative": 4458000000.0,
+      "totalOperatingExpenses": 44600000000.0,
+      "operatingIncome": 13415000000.0,
+      "totalOtherIncomeExpenseNet": 378000000.0,
+      "ebit": 13415000000.0,
+      "interestExpense": -1010000000.0,
+      "incomeBeforeTax": 13793000000.0,
+      "incomeTaxExpense": 2232000000.0,
+      "netIncomeFromContinuingOps": 11561000000.0,
+      "netIncome": 11561000000.0,
+      "netIncomeApplicableToCommonShares": 11561000000.0
+    },
+    {
+      "endDate": "2018-12-29",
+      "totalRevenue": 84310000000.0,
+      "costOfRevenue": 52279000000.0,
+      "grossProfit": 32031000000.0,
+      "researchDevelopment": 3902000000.0,
+      "sellingGeneralAdministrative": 4783000000.0,
+      "totalOperatingExpenses": 60964000000.0,
+      "operatingIncome": 23346000000.0,
+      "totalOtherIncomeExpenseNet": 560000000.0,
+      "ebit": 23346000000.0,
+      "interestExpense": -890000000.0,
+      "incomeBeforeTax": 23906000000.0,
+      "incomeTaxExpense": 3941000000.0,
+      "netIncomeFromContinuingOps": 19965000000.0,
+      "netIncome": 19965000000.0,
+      "netIncomeApplicableToCommonShares": 19965000000.0
+    }
+  ],
+  "yh_indexTrend": {
+    "symbol": "SP5",
+    "peRatio": 20.4944,
+    "pegRatio": 0.473514,
+    "estimates": [
+      {
+        "period": "0q",
+        "growth": 0.016
+      },
+      {
+        "period": "+1q",
+        "growth": 0.06
+      },
+      {
+        "period": "0y",
+        "growth": -0.025999999
+      },
+      {
+        "period": "+1y",
+        "growth": 0.142
+      },
+      {
+        "period": "+5y",
+        "growth": 0.0653062
+      },
+      {
+        "period": "-5y"
+      }
+    ]
+  },
+  "yh_insiderHolders": [
+    {
+      "name": "ADAMS KATHERINE L",
+      "relation": "General Counsel",
+      "url": "",
+      "transactionDescription": "Conversion of Exercise of derivative security",
+      "latestTransDate": "2019-11-13",
+      "positionDirect": 22639.0,
+      "positionDirectDate": "2019-11-13"
+    },
+    {
+      "name": "BELL JAMES A",
+      "relation": "Director",
+      "url": "",
+      "transactionDescription": "Stock Gift",
+      "latestTransDate": "2019-08-02",
+      "positionDirect": 6287.0,
+      "positionDirectDate": "2019-08-02"
+    },
+    {
+      "name": "COOK TIMOTHY D",
+      "relation": "Chief Executive Officer",
+      "url": "",
+      "transactionDescription": "Sale",
+      "latestTransDate": "2019-08-26",
+      "positionDirect": 854849.0,
+      "positionDirectDate": "2019-08-26"
+    },
+    {
+      "name": "IGER ROBERT A",
+      "relation": "Director",
+      "url": "",
+      "transactionDescription": "Conversion of Exercise of derivative security",
+      "latestTransDate": "2019-02-01",
+      "positionDirect": 50571.0,
+      "positionDirectDate": "2019-02-01"
+    },
+    {
+      "name": "KONDO CHRISTOPHER",
+      "relation": "Officer",
+      "url": "",
+      "transactionDescription": "Sale",
+      "latestTransDate": "2019-10-16",
+      "positionDirect": 8212.0,
+      "positionDirectDate": "2019-10-16"
+    },
+    {
+      "name": "LEVINSON ARTHUR D",
+      "relation": "Director",
+      "url": "",
+      "transactionDescription": "Sale",
+      "latestTransDate": "2019-11-05",
+      "positionDirect": 1147280.0,
+      "positionDirectDate": "2019-11-05"
+    },
+    {
+      "name": "MAESTRI LUCA",
+      "relation": "Chief Financial Officer",
+      "url": "",
+      "transactionDescription": "Sale",
+      "latestTransDate": "2019-10-07",
+      "positionDirect": 27448.0,
+      "positionDirectDate": "2019-10-07"
+    },
+    {
+      "name": "O'BRIEN DEIRDRE",
+      "relation": "Officer",
+      "url": "",
+      "transactionDescription": "Sale",
+      "latestTransDate": "2019-10-16",
+      "positionDirect": 33852.0,
+      "positionDirectDate": "2019-10-16"
+    },
+    {
+      "name": "SUGAR RONALD D",
+      "relation": "Director",
+      "url": "",
+      "transactionDescription": "Conversion of Exercise of derivative security",
+      "latestTransDate": "2019-02-01",
+      "positionDirect": 23285.0,
+      "positionDirectDate": "2019-02-01"
+    },
+    {
+      "name": "WILLIAMS JEFFREY E",
+      "relation": "Chief Operating Officer",
+      "url": "",
+      "transactionDescription": "Sale",
+      "latestTransDate": "2019-10-02",
+      "positionDirect": 122195.0,
+      "positionDirectDate": "2019-10-02"
+    }
+  ],
+  "yh_insiderTransactions": [
+    {
+      "shares": 14370.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "ADAMS KATHERINE L",
+      "filerRelation": "General Counsel",
+      "moneyText": "",
+      "startDate": "2019-11-13",
+      "ownership": "D"
+    },
+    {
+      "shares": 37394.0,
+      "value": 9639799.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 257.79 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-11-05",
+      "ownership": "D"
+    },
+    {
+      "shares": 37394.0,
+      "value": 1079082.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 28.86 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-11-05",
+      "ownership": "D"
+    },
+    {
+      "shares": 3932.0,
+      "value": 917178.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 233.26 per share.",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-10-16",
+      "ownership": "D"
+    },
+    {
+      "shares": 12459.0,
+      "value": 2915904.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 234.04 per share.",
+      "filerName": "O'BRIEN DEIRDRE",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-10-16",
+      "ownership": "D"
+    },
+    {
+      "shares": 6915.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-10-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 23967.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "O'BRIEN DEIRDRE",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-10-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 61659.0,
+      "value": 14081680.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 226.58 - 229.34 per share.",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2019-10-07",
+      "ownership": "D"
+    },
+    {
+      "shares": 67554.0,
+      "value": 14797004.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 218.62 - 219.28 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2019-10-02",
+      "ownership": "D"
+    },
+    {
+      "shares": 129308.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2019-10-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 129308.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2019-10-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 265160.0,
+      "value": 54667179.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 205.75 - 207.13 per share.",
+      "filerName": "COOK TIMOTHY D",
+      "filerRelation": "Chief Executive Officer",
+      "moneyText": "",
+      "startDate": "2019-08-26",
+      "ownership": "D"
+    },
+    {
+      "shares": 560000.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "COOK TIMOTHY D",
+      "filerRelation": "Chief Executive Officer",
+      "moneyText": "",
+      "startDate": "2019-08-23",
+      "ownership": "D"
+    },
+    {
+      "shares": 23700.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "COOK TIMOTHY D",
+      "filerRelation": "Chief Executive Officer",
+      "moneyText": "",
+      "startDate": "2019-08-22",
+      "ownership": "D"
+    },
+    {
+      "shares": 17500.0,
+      "value": 3529575.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 201.69 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-08-12",
+      "ownership": "D"
+    },
+    {
+      "shares": 17500.0,
+      "value": 416950.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 23.83 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-08-12",
+      "ownership": "D"
+    },
+    {
+      "shares": 1177.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "BELL JAMES A",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-08-02",
+      "ownership": "D"
+    },
+    {
+      "shares": 17500.0,
+      "value": 3745350.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 214.02 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-08-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 17500.0,
+      "value": 416950.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 23.83 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-08-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 4376.0,
+      "value": 951635.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 217.47 per share.",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-08-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 7380100.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 210.86 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-05-03",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 833900.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 23.83 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-05-03",
+      "ownership": "D"
+    },
+    {
+      "shares": 56411.0,
+      "value": 11866355.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 208.99 - 212.46 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2019-05-02",
+      "ownership": "D"
+    },
+    {
+      "shares": 6917.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-04-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 23970.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "O'BRIEN DEIRDRE",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-04-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 51138.0,
+      "value": 10054242.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 196.61 per share.",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2019-04-05",
+      "ownership": "D"
+    },
+    {
+      "shares": 105400.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2019-04-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 105400.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2019-04-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 471.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2019-02-19",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "IGER ROBERT A",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "value": 255087.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 167.71 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "SUGAR RONALD D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "WAGNER SUSAN L",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "JUNG ANDREA",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "BELL JAMES A",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1521.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "GORE ALBERT A JR",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 508098.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 14.52 per share.",
+      "filerName": "GORE ALBERT A JR",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2019-01-24",
+      "ownership": "D"
+    },
+    {
+      "shares": 3408.0,
+      "value": 647520.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 190.00 per share.",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-11-19",
+      "ownership": "D"
+    },
+    {
+      "shares": 14371.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "ADAMS KATHERINE L",
+      "filerRelation": "General Counsel",
+      "moneyText": "",
+      "startDate": "2018-11-13",
+      "ownership": "D"
+    },
+    {
+      "shares": 6800.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-10-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 64194.0,
+      "value": 14821664.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 227.96 - 232.66 per share.",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-10-05",
+      "ownership": "D"
+    },
+    {
+      "shares": 100245.0,
+      "value": 22912178.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 227.69 - 231.48 per share.",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2018-10-04",
+      "ownership": "D"
+    },
+    {
+      "shares": 61998.0,
+      "value": 14403787.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 232.19 - 232.70 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-10-03",
+      "ownership": "D"
+    },
+    {
+      "shares": 130528.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-10-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 130528.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-10-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 130528.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2018-10-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 265160.0,
+      "value": 57748442.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 216.96 - 218.54 per share.",
+      "filerName": "COOK TIMOTHY D",
+      "filerRelation": "Chief Executive Officer",
+      "moneyText": "",
+      "startDate": "2018-08-27",
+      "ownership": "D"
+    },
+    {
+      "shares": 560000.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "COOK TIMOTHY D",
+      "filerRelation": "Chief Executive Officer",
+      "moneyText": "",
+      "startDate": "2018-08-24",
+      "ownership": "D"
+    },
+    {
+      "shares": 23215.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "COOK TIMOTHY D",
+      "filerRelation": "Chief Executive Officer",
+      "moneyText": "",
+      "startDate": "2018-08-21",
+      "ownership": "D"
+    },
+    {
+      "shares": 14140.0,
+      "value": 3039838.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 214.50 - 215.50 per share.",
+      "filerName": "SROUJI JOHNY",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-08-17",
+      "ownership": "D"
+    },
+    {
+      "shares": 675.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-08-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 47796.0,
+      "value": 9917670.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 207.50 per share.",
+      "filerName": "FEDERIGHI CRAIG M",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-08-09",
+      "ownership": "D"
+    },
+    {
+      "shares": 15652.0,
+      "value": 3237714.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 205.29 - 207.72 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-08-08",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 7236000.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 206.58 - 206.96 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-08-03",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 896598.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 25.62 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-08-03",
+      "ownership": "D"
+    },
+    {
+      "shares": 15652.0,
+      "value": 2976664.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 190.14 - 190.53 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-07-09",
+      "ownership": "D"
+    },
+    {
+      "shares": 6568.0,
+      "value": 1240104.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 188.81 per share.",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-06-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 13132.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-06-14",
+      "ownership": "D"
+    },
+    {
+      "shares": 15653.0,
+      "value": 2988851.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 190.52 - 191.96 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-06-08",
+      "ownership": "D"
+    },
+    {
+      "shares": 4769.0,
+      "value": 903928.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 188.01 - 189.86 per share.",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2018-06-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 9550.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2018-05-29",
+      "ownership": "D"
+    },
+    {
+      "shares": 14976.0,
+      "value": 2811594.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 187.74 per share.",
+      "filerName": "SROUJI JOHNY",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-05-23",
+      "ownership": "D"
+    },
+    {
+      "shares": 17372.0,
+      "value": 3259604.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 187.15 - 188.68 per share.",
+      "filerName": "RICCIO DANIEL J JR",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-05-17",
+      "ownership": "D"
+    },
+    {
+      "shares": 4867.0,
+      "value": 910129.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 187.00 per share.",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-05-16",
+      "ownership": "D"
+    },
+    {
+      "shares": 14371.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "ADAMS KATHERINE L",
+      "filerRelation": "General Counsel",
+      "moneyText": "",
+      "startDate": "2018-05-11",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 6509650.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 185.99 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-05-09",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 896598.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 25.62 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-05-09",
+      "ownership": "D"
+    },
+    {
+      "shares": 15653.0,
+      "value": 2898551.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 184.52 - 186.00 per share.",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-05-08",
+      "ownership": "D"
+    },
+    {
+      "shares": 38228.0,
+      "value": 6748833.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 175.68 - 178.17 per share.",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-05-04",
+      "ownership": "D"
+    },
+    {
+      "shares": 11395.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-05-03",
+      "ownership": "D"
+    },
+    {
+      "shares": 39122.0,
+      "value": 6832932.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 174.65 - 174.90 per share.",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2018-04-13",
+      "ownership": "D"
+    },
+    {
+      "shares": 6803.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-04-13",
+      "ownership": "D"
+    },
+    {
+      "shares": 20591.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "SROUJI JOHNY",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-04-13",
+      "ownership": "D"
+    },
+    {
+      "shares": 17375.0,
+      "value": 2938512.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 166.31 - 171.35 per share.",
+      "filerName": "RICCIO DANIEL J JR",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-04-04",
+      "ownership": "D"
+    },
+    {
+      "shares": 69491.0,
+      "value": 11564679.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 165.52 - 167.36 per share.",
+      "filerName": "SCHILLER PHILIP W",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-04-03",
+      "ownership": "I"
+    },
+    {
+      "shares": 69491.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "SCHILLER PHILIP W",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 130117.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "SCHILLER PHILIP W",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 77062.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "FEDERIGHI CRAIG M",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 77062.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "AHRENDTS ANGELA J COUCH",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 130117.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "WILLIAMS JEFFREY E",
+      "filerRelation": "Chief Operating Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 77062.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "MAESTRI LUCA",
+      "filerRelation": "Chief Financial Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 63670.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "CUE EDUARDO H",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 130117.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "CUE EDUARDO H",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 130117.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "RICCIO DANIEL J JR",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-03-30",
+      "ownership": "D"
+    },
+    {
+      "shares": 675.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "KONDO CHRISTOPHER",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-02-15",
+      "ownership": "D"
+    },
+    {
+      "shares": 35000.0,
+      "value": 648350.0,
+      "filerUrl": "",
+      "transactionText": "Conversion of Exercise of derivative security at price 18.52 per share.",
+      "filerName": "GORE ALBERT A JR",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-06",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-02",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "IGER ROBERT A",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "LEVINSON ARTHUR D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "SUGAR RONALD D",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "WAGNER SUSAN L",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "JUNG ANDREA",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "BELL JAMES A",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 1825.0,
+      "filerUrl": "",
+      "transactionText": "",
+      "filerName": "GORE ALBERT A JR",
+      "filerRelation": "Director",
+      "moneyText": "",
+      "startDate": "2018-02-01",
+      "ownership": "D"
+    },
+    {
+      "shares": 15641.0,
+      "value": 2733800.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 174.02 - 174.89 per share.",
+      "filerName": "RICCIO DANIEL J JR",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2018-01-05",
+      "ownership": "D"
+    },
+    {
+      "shares": 480.0,
+      "value": 0.0,
+      "filerUrl": "",
+      "transactionText": "Stock Gift at price 0.00 per share.",
+      "filerName": "SROUJI JOHNY",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2017-12-21",
+      "ownership": "D"
+    },
+    {
+      "shares": 15641.0,
+      "value": 2654135.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 169.63 - 170.19 per share.",
+      "filerName": "RICCIO DANIEL J JR",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2017-12-07",
+      "ownership": "D"
+    },
+    {
+      "shares": 65361.0,
+      "value": 11215918.0,
+      "filerUrl": "",
+      "transactionText": "Sale at price 171.35 - 171.87 per share.",
+      "filerName": "CUE EDUARDO H",
+      "filerRelation": "Officer",
+      "moneyText": "",
+      "startDate": "2017-11-30",
+      "ownership": "I"
+    }
+  ],
+  "yh_institutionOwnership": [
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Vanguard Group, Inc. (The)",
+      "pctHeld": 0.074499995,
+      "position": 331132509.0,
+      "value": 74163748040.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Blackrock Inc.",
+      "pctHeld": 0.0631,
+      "position": 280191416.0,
+      "value": 62754471441.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Berkshire Hathaway, Inc",
+      "pctHeld": 0.055999998,
+      "position": 248838679.0,
+      "value": 55732398935.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "State Street Corporation",
+      "pctHeld": 0.041500002,
+      "position": 184232445.0,
+      "value": 41262540706.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "FMR, LLC",
+      "pctHeld": 0.0219,
+      "position": 97406467.0,
+      "value": 21816126413.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Geode Capital Management, LLC",
+      "pctHeld": 0.0139,
+      "position": 61692344.0,
+      "value": 13817234285.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Northern Trust Corporation",
+      "pctHeld": 0.0125,
+      "position": 55695293.0,
+      "value": 12474074773.0
+    },
+    {
+      "reportDate": "2018-12-31",
+      "organization": "Norges Bank Investment Management",
+      "pctHeld": 0.0107,
+      "position": 47548838.0,
+      "value": 7500353706.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Invesco Ltd.",
+      "pctHeld": 0.010199999,
+      "position": 45517273.0,
+      "value": 10194503633.0
+    },
+    {
+      "reportDate": "2019-09-30",
+      "organization": "Bank of America Corporation",
+      "pctHeld": 0.0095999995,
+      "position": 42492816.0,
+      "value": 9517115999.0
+    }
+  ],
+  "yh_majorHoldersBreakdown": {
+    "insidersPercentHeld": 0.07,
+    "institutionsPercentHeld": 60.95,
+    "institutionsFloatPercentHeld": 60.99,
+    "institutionsCount": 3860.0
+  },
+  "yh_netSharePurchaseActivity": {
+    "period": "6m",
+    "buyInfoCount": 20.0,
+    "buyInfoShares": 5409409.0,
+    "buyPercentInsiderShares": 4456.0,
+    "sellInfoCount": 22.0,
+    "sellInfoShares": 2242789.0,
+    "sellPercentInsiderShares": 1847.5,
+    "netInfoCount": 42.0,
+    "netInfoShares": 3166620.0,
+    "netPercentInsiderShares": 2608.5,
+    "totalInsiderShares": 3288016.0
+  },
+  "yh_price": {
+    "preMarketSource": "FREE_REALTIME",
+    "postMarketChangePercent": -0.43,
+    "postMarketChange": -1.1399841,
+    "postMarketTime": 1574902793,
+    "postMarketPrice": 266.7,
+    "postMarketSource": "DELAYED",
+    "regularMarketChangePercent": 1.34,
+    "regularMarketChange": 3.5499878,
+    "regularMarketTime": 1574888401,
+    "priceHint": 2.0,
+    "regularMarketPrice": 267.84,
+    "regularMarketDayHigh": 267.98,
+    "regularMarketDayLow": 265.31,
+    "regularMarketVolume": 16386122.0,
+    "averageDailyVolume10Day": 22196525.0,
+    "averageDailyVolume3Month": 25317224.0,
+    "regularMarketPreviousClose": 264.29,
+    "regularMarketSource": "FREE_REALTIME",
+    "regularMarketOpen": 265.58,
+    "exchange": "NMS",
+    "exchangeName": "NasdaqGS",
+    "exchangeDataDelayedBy": 0,
+    "marketState": "CLOSED",
+    "quoteType": "EQUITY",
+    "symbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "longName": "Apple Inc.",
+    "currency": "USD",
+    "quoteSourceName": "Delayed Quote",
+    "currencySymbol": "$",
+    "marketCap": 1210422394880.0
+  },
+  "yh_quoteType": {
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "symbol": "AAPL",
+    "underlyingSymbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "longName": "Apple Inc.",
+    "firstTradeDateEpochUtc": 345459600,
+    "timeZoneFullName": "America/New_York",
+    "timeZoneShortName": "EST",
+    "uuid": "8b10e4ae-9eeb-3684-921a-9ab27e4d87aa",
+    "messageBoardId": "finmb_24937",
+    "gmtOffSetMilliseconds": -18000000
+  },
+  "yh_recommendationTrend": [
+    {
+      "period": "0m",
+      "strongBuy": 11,
+      "buy": 21,
+      "hold": 6,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "period": "-1m",
+      "strongBuy": 13,
+      "buy": 11,
+      "hold": 16,
+      "sell": 3,
+      "strongSell": 0
+    },
+    {
+      "period": "-2m",
+      "strongBuy": 12,
+      "buy": 10,
+      "hold": 18,
+      "sell": 3,
+      "strongSell": 0
+    },
+    {
+      "period": "-3m",
+      "strongBuy": 13,
+      "buy": 10,
+      "hold": 18,
+      "sell": 3,
+      "strongSell": 0
+    }
+  ],
+  "yh_secFilings": [
+    {
+      "date": "2019-11-15",
+      "epochDate": 1573776000,
+      "type": "8-K",
+      "title": "Other Events, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/191115/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0001193125-19-292676&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-10-31",
+      "epochDate": 1572480000,
+      "type": "10-K",
+      "title": "Annual Report",
+      "url": "http://biz.yahoo.com/e/191031/aapl10-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000119&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-10-30",
+      "epochDate": 1572393600,
+      "type": "8-K",
+      "title": "Results of Operations and Financial Condition, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/191030/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000117&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-09-11",
+      "epochDate": 1568160000,
+      "type": "8-K",
+      "title": "Other Events, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/190911/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0001193125-19-242975&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-07-31",
+      "epochDate": 1564531200,
+      "type": "10-Q",
+      "title": "Quarterly Report",
+      "url": "http://biz.yahoo.com/e/190731/aapl10-q.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000076&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-07-30",
+      "epochDate": 1564444800,
+      "type": "8-K",
+      "title": "Results of Operations and Financial Condition, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/190730/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000073&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-05-01",
+      "epochDate": 1556668800,
+      "type": "10-Q",
+      "title": "Quarterly Report",
+      "url": "http://biz.yahoo.com/e/190501/aapl10-q.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000066&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-04-30",
+      "epochDate": 1556582400,
+      "type": "8-K",
+      "title": "Results of Operations and Financial Condition, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/190430/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000063&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-03-04",
+      "epochDate": 1551657600,
+      "type": "8-K",
+      "title": "Submission of Matters to a Vote of Security Holders",
+      "url": "http://biz.yahoo.com/e/190304/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000032&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-02-06",
+      "epochDate": 1549411200,
+      "type": "8-K",
+      "title": "Change in Directors or Principal Officers",
+      "url": "http://biz.yahoo.com/e/190206/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000026&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-01-30",
+      "epochDate": 1548806400,
+      "type": "10-Q",
+      "title": "Quarterly Report",
+      "url": "http://biz.yahoo.com/e/190130/aapl10-q.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000010&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-01-29",
+      "epochDate": 1548720000,
+      "type": "8-K",
+      "title": "Results of Operations and Financial Condition, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/190129/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000007&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2019-01-02",
+      "epochDate": 1546387200,
+      "type": "8-K",
+      "title": "Results of Operations and Financial Condition",
+      "url": "http://biz.yahoo.com/e/190102/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-19-000002&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2018-11-05",
+      "epochDate": 1541376000,
+      "type": "10-K",
+      "title": "Annual Report",
+      "url": "http://biz.yahoo.com/e/181105/aapl10-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-18-000145&nav=1&src=Yahoo"
+    },
+    {
+      "date": "2018-11-01",
+      "epochDate": 1541030400,
+      "type": "8-K",
+      "title": "Results of Operations and Financial Condition, Financial Statements and Exhibits",
+      "url": "http://biz.yahoo.com/e/181101/aapl8-k.html",
+      "edgarUrl": "https://yahoo.brand.edgar-online.com/DisplayFiling.aspx?TabIndex=2&dcn=0000320193-18-000142&nav=1&src=Yahoo"
+    }
+  ],
+  "yh_summaryDetail": {
+    "priceHint": 2.0,
+    "previousClose": 264.29,
+    "open": 265.58,
+    "dayLow": 265.31,
+    "dayHigh": 267.98,
+    "regularMarketPreviousClose": 264.29,
+    "regularMarketOpen": 265.58,
+    "regularMarketDayLow": 265.31,
+    "regularMarketDayHigh": 267.98,
+    "dividendRate": 3.08,
+    "dividendYield": 0.0115,
+    "exDividendDate": "2019-11-07",
+    "payoutRatio": 0.2523,
+    "fiveYearAvgDividendYield": 1.64,
+    "beta": 1.246987,
+    "trailingPE": 22.526491,
+    "forwardPE": 18.024227,
+    "volume": 16386122.0,
+    "regularMarketVolume": 16386122.0,
+    "averageVolume": 25317224.0,
+    "averageVolume10days": 22196525.0,
+    "averageDailyVolume10Day": 22196525.0,
+    "bid": 266.8,
+    "ask": 267.1,
+    "bidSize": 800.0,
+    "askSize": 1000.0,
+    "marketCap": 1210422394880.0,
+    "fiftyTwoWeekLow": 142.0,
+    "fiftyTwoWeekHigh": 268.0,
+    "priceToSalesTrailing12Months": 4.652357,
+    "fiftyDayAverage": 251.44194,
+    "twoHundredDayAverage": 215.73085,
+    "trailingAnnualDividendRate": 3.0,
+    "trailingAnnualDividendYield": 0.011351167,
+    "currency": "USD",
+    "tradeable": true
+  },
+  "yh_upgradeDowngradeHistory": [
+    {
+      "epochGradeDate": 1574726400,
+      "firm": "Cascend",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1573776000,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1573776000,
+      "firm": "Piper Jaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1573776000,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1573689600,
+      "firm": "Maxim Group",
+      "toGrade": "Sell",
+      "fromGrade": "Hold",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1573603200,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Wells Fargo",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Cascend",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "DA Davidson",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Piper Jaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572480000,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572220800,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572220800,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1572220800,
+      "firm": "Jefferies",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1571961600,
+      "firm": "Cascend",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1571875200,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1571788800,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1571702400,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1571616000,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1571270400,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1570752000,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1570665600,
+      "firm": "Longbow Research",
+      "toGrade": "Buy",
+      "fromGrade": "Neutral",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1570579200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1570406400,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1569801600,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1568937600,
+      "firm": "Cascend",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1568332800,
+      "firm": "Goldman Sachs",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1568160000,
+      "firm": "Needham",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1568160000,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1568160000,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1565222400,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Piper Jaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564531200,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1564358400,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1563753600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1563494400,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1563408000,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "Market Perform",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1563321600,
+      "firm": "Goldman Sachs",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1562630400,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1562544000,
+      "firm": "Rosenblatt",
+      "toGrade": "Sell",
+      "fromGrade": "Neutral",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1560988800,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1559779200,
+      "firm": "Evercore ISI Group",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1559606400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1559174400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1559174400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1559001600,
+      "firm": "Citi",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1558569600,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1558051200,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1554940800,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1554854400,
+      "firm": "HSBC",
+      "toGrade": "Reduce",
+      "fromGrade": "Hold",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1554854400,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1553558400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1553558400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1553558400,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "Outperform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1553558400,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1553126400,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "Outperform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1553126400,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1553126400,
+      "firm": "Needham",
+      "toGrade": "Strong Buy",
+      "fromGrade": "Buy",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1552521600,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1552262400,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "Neutral",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "Neutral",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "Neutral",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1548806400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546560000,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Loop Capital",
+      "toGrade": "Hold",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "Outperform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "Outperform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Wells Fargo",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Macquarie",
+      "toGrade": "Neutral",
+      "fromGrade": "Outperform",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "Neutral",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1546473600,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "Neutral",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1544745600,
+      "firm": "DA Davidson",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1544400000,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1544140800,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1544054400,
+      "firm": "Rosenblatt",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1543881600,
+      "firm": "HSBC",
+      "toGrade": "Hold",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1543449600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1542672000,
+      "firm": "Goldman Sachs",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1542153600,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1542153600,
+      "firm": "Guggenheim",
+      "toGrade": "Neutral",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1541635200,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1541116800,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "Neutral",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1541116800,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1541116800,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "Outperform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1541116800,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1541116800,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1541116800,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1540771200,
+      "firm": "Jefferies",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1539907200,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1536796800,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1536796800,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1536105600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1536105600,
+      "firm": "DA Davidson",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1536019200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1535673600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "Neutral",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1534809600,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1533168000,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1533081600,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "Hold",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1533081600,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1533081600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1532390400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1532304000,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1528416000,
+      "firm": "Argus",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1527638400,
+      "firm": "Maxim Group",
+      "toGrade": "Hold",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1527120000,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1525219200,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "Equal-Weight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1525219200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1525219200,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1525046400,
+      "firm": "DA Davidson",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1525046400,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "Equal-Weight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1524182400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1523404800,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1521158400,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "Equal-Weight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1517961600,
+      "firm": "Goldman Sachs",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1517788800,
+      "firm": "Hilliard Lyons",
+      "toGrade": "Buy",
+      "fromGrade": "Long-Term Buy",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1517529600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1517529600,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Market Perform",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1517529600,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "Equal-Weight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1517529600,
+      "firm": "Maxim Group",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1517529600,
+      "firm": "KeyBanc",
+      "toGrade": "Sector Weight",
+      "fromGrade": "Overweight",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1517529600,
+      "firm": "Bernstein",
+      "toGrade": "Market Perform",
+      "fromGrade": "Outperform",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1517356800,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "Outperform",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1517356800,
+      "firm": "Loop Capital",
+      "toGrade": "Buy",
+      "fromGrade": "Buy",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1516838400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1516665600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1516579200,
+      "firm": "Atlantic Equities",
+      "toGrade": "Neutral",
+      "fromGrade": "Overweight",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1516147200,
+      "firm": "Longbow Research",
+      "toGrade": "Neutral",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1513641600,
+      "firm": "Instinet",
+      "toGrade": "Neutral",
+      "fromGrade": "Buy",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1509926400,
+      "firm": "Argus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Rosenblatt",
+      "toGrade": "Buy",
+      "fromGrade": "Neutral",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Bernstein",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1509667200,
+      "firm": "Loop Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1508889600,
+      "firm": "HSBC",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1508112000,
+      "firm": "KeyBanc",
+      "toGrade": "Overweight",
+      "fromGrade": "Sector Weight",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1507852800,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1506038400,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "Overweight",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1505779200,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1504656000,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1501718400,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1501632000,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1501632000,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1501632000,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1501632000,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1500854400,
+      "firm": "Loop Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1500249600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1497225600,
+      "firm": "Mizuho",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1496620800,
+      "firm": "Pacific Crest",
+      "toGrade": "Sector Weight",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1492560000,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1492473600,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1491264000,
+      "firm": "Pacific Crest",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1490313600,
+      "firm": "Needham",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1490313600,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1490054400,
+      "firm": "Bernstein",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1488758400,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1488326400,
+      "firm": "BTIG Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1485216000,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1484784000,
+      "firm": "OTR Global",
+      "toGrade": "Negative",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1483488000,
+      "firm": "Guggenheim",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Drexel Hamilton",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Macquarie",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Brean Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1477440000,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1476230400,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1476230400,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1476230400,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1475193600,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1475107200,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1474502400,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1474502400,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473984000,
+      "firm": "CLSA",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473897600,
+      "firm": "BTIG Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473897600,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473811200,
+      "firm": "Morgan Stanley",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473724800,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Drexel Hamilton",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Bernstein",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "William Blair",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Oppenheimer",
+      "toGrade": "Perform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Pacific Crest",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Wells Fargo",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Macquarie",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1473292800,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1470873600,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1470096000,
+      "firm": "Daiwa Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1469664000,
+      "firm": "Hilliard Lyons",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "BTIG Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "Drexel Hamilton",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "Brean Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469577600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1469491200,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1468540800,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1467763200,
+      "firm": "Longbow Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1464825600,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1462924800,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "CLSA",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Oppenheimer",
+      "toGrade": "Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Maxim Group",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Macquarie",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Pacific Crest",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Brean Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461715200,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461628800,
+      "firm": "BTIG Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461628800,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1461110400,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1459987200,
+      "firm": "BTIG Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1459900800,
+      "firm": "Needham",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1459728000,
+      "firm": "Brean Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1459728000,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1459296000,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1457568000,
+      "firm": "CLSA",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1457308800,
+      "firm": "Pacific Crest",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1455235200,
+      "firm": "FBR Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1453852800,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1453852800,
+      "firm": "FBR Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1453852800,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1452556800,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1452470400,
+      "firm": "Mizuho",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1452470400,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1452470400,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1452211200,
+      "firm": "Pacific Crest",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1452211200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1452124800,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1450742400,
+      "firm": "Cowen & Co.",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1450051200,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1449792000,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1447804800,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1445990400,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1445990400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1445990400,
+      "firm": "Pacific Crest",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1445990400,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1445558400,
+      "firm": "Maxim Group",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1444780800,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1444521600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1443657600,
+      "firm": "Drexel Hamilton",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1443398400,
+      "firm": "Sterne Agee CRT",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1442793600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1442361600,
+      "firm": "JMP Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1441756800,
+      "firm": "Rosenblatt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1440460800,
+      "firm": "Wells Fargo",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1438732800,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1438214400,
+      "firm": "Nomura",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1437523200,
+      "firm": "Cowen & Co.",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1436745600,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1430179200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1430179200,
+      "firm": "Susquehanna",
+      "toGrade": "Positive",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1430092800,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1430092800,
+      "firm": "Brean Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1430092800,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1429228800,
+      "firm": "FBR Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1429142400,
+      "firm": "Maxim Group",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1428624000,
+      "firm": "Raymond James",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1428451200,
+      "firm": "Societe Generale",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1427760000,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1427328000,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1427155200,
+      "firm": "Cantor Fitzgerald",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1427068800,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1426636800,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1426204800,
+      "firm": "Berenberg",
+      "toGrade": "",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1425945600,
+      "firm": "Evercore ISI Group",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1425945600,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1425945600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1425859200,
+      "firm": "Macquarie",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1425340800,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1425254400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1424822400,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1424736000,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1424390400,
+      "firm": "Goldman Sachs",
+      "toGrade": "",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1423612800,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "Cowen & Co.",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "Evercore ISI Group",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1422403200,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1421366400,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1421366400,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1421280000,
+      "firm": "Mizuho",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1421107200,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1417996800,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1417564800,
+      "firm": "JMP Securities",
+      "toGrade": "Market Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1417478400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1417392000,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1416873600,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1416441600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1416355200,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1416268800,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1413849600,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1413849600,
+      "firm": "Cantor Fitzgerald",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1413849600,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1413244800,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1412812800,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1412640000,
+      "firm": "Susquehanna",
+      "toGrade": "Positive",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1412294400,
+      "firm": "Deutsche Bank",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1412208000,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1412035200,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1412035200,
+      "firm": "Evercore Partners",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1410307200,
+      "firm": "Pacific Crest",
+      "toGrade": "Sector Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1410307200,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1410307200,
+      "firm": "Mizuho",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1410307200,
+      "firm": "Wells Fargo",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1410307200,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1409616000,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1406073600,
+      "firm": "Macquarie",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1406073600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1406073600,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1405900800,
+      "firm": "JMP Securities",
+      "toGrade": "Market Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1405900800,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1405296000,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1405296000,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1405036800,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1404259200,
+      "firm": "Evercore Partners",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1403654400,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1402963200,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1402617600,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1402444800,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1402444800,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1402358400,
+      "firm": "Citigroup",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1402358400,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1402272000,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401753600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401753600,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401321600,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401321600,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401321600,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401235200,
+      "firm": "Bernstein",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1401235200,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1399593600,
+      "firm": "ISI Group",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1399334400,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Pacific Crest",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "CLSA",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Barclays",
+      "toGrade": "Equal-Weight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Citigroup",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1398297600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1397088000,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1395360000,
+      "firm": "Macquarie",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1394496000,
+      "firm": "Pacific Crest",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1393804800,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1392854400,
+      "firm": "Barclays",
+      "toGrade": "Equal-weight",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1392336000,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "Oppenheimer",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "BGC Financial",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "Hilliard Lyons",
+      "toGrade": "Long-Term Buy",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "Citigroup",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1390867200,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1390780800,
+      "firm": "BGC Financial",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1390262400,
+      "firm": "Societe Generale",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1389571200,
+      "firm": "Oracle Investment Research",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1388966400,
+      "firm": "Standpoint",
+      "toGrade": "Sell",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1388620800,
+      "firm": "Wells Fargo",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1387756800,
+      "firm": "Stifel",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1387756800,
+      "firm": "Raymond James",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1387756800,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1387411200,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1387411200,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1387411200,
+      "firm": "Susquehanna",
+      "toGrade": "Positive",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1387152000,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1386806400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1386633600,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1386288000,
+      "firm": "Citigroup",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1386028800,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1385942400,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1385683200,
+      "firm": "Cantor Fitzgerald",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1385337600,
+      "firm": "Wells Fargo",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1384732800,
+      "firm": "Susquehanna",
+      "toGrade": "Positive",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1384387200,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Wells Fargo",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Citigroup",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Jefferies",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Janney Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1383004800,
+      "firm": "Baird",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1382486400,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1382486400,
+      "firm": "Wells Fargo",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1382313600,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1381708800,
+      "firm": "Mizuho",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1381104000,
+      "firm": "Jefferies",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1380844800,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1380499200,
+      "firm": "Global Equities Research",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1380240000,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1379980800,
+      "firm": "Susquehanna",
+      "toGrade": "Positive",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1379980800,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1379894400,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1379894400,
+      "firm": "Societe Generale",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1379030400,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "Credit Suisse",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "UBS",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378857600,
+      "firm": "Bank of America",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1378684800,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378425600,
+      "firm": "Evercore Partners",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1378252800,
+      "firm": "Cantor Fitzgerald",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1378166400,
+      "firm": "ABG Sundal Collier",
+      "toGrade": "Sell",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1377043200,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1376524800,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1376265600,
+      "firm": "Needham",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1375401600,
+      "firm": "Standpoint Research",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1375315200,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1374624000,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1374624000,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1374624000,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1374624000,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1374451200,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1372636800,
+      "firm": "Raymond James",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1372032000,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1372032000,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1368576000,
+      "firm": "Susquehanna",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1367798400,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366848000,
+      "firm": "Hamburger Sparkasse",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1366848000,
+      "firm": "ABG Sundal Collier",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "Hilliard Lyons",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "BMO Capital",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "Ameriprise Financial",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1366761600,
+      "firm": "Citigroup",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366675200,
+      "firm": "FBR Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366588800,
+      "firm": "BGC Financial",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1366588800,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366588800,
+      "firm": "Avondale Partners",
+      "toGrade": "Market Outperform",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1366588800,
+      "firm": "Sterne Agee",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366588800,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366329600,
+      "firm": "Standpoint",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1366329600,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366243200,
+      "firm": "Janney Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366243200,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366070400,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1366070400,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1365724800,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1365033600,
+      "firm": "Lazard",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1364860800,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1364256000,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1363737600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1363305600,
+      "firm": "Sterne Agee",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1363219200,
+      "firm": "BTIG Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1363046400,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1362960000,
+      "firm": "Credit Agricole",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1362528000,
+      "firm": "Berenberg",
+      "toGrade": "Sell",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1362528000,
+      "firm": "Citigroup",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1362441600,
+      "firm": "Cleveland Research",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1361750400,
+      "firm": "Needham",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1359331200,
+      "firm": "Baird",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Topeka",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Oracle Investment Research",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Credit Suisse",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Scotiabank",
+      "toGrade": "Sector Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "BGC Financial",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Sterne Agee",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "RBC Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Hilliard Lyons",
+      "toGrade": "Long-term Buy",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Janney Capital",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Jefferies",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1358985600,
+      "firm": "Credit Agricole",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358812800,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358812800,
+      "firm": "Scotiabank",
+      "toGrade": "Sector Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358812800,
+      "firm": "Monness, Crespi, Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358380800,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358380800,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358294400,
+      "firm": "Stifel",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358294400,
+      "firm": "BGC Financial",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358294400,
+      "firm": "Pacific Crest",
+      "toGrade": "Sector Perform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1358294400,
+      "firm": "Stifel",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358294400,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1358208000,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1357862400,
+      "firm": "Credit Agricole",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1357776000,
+      "firm": "PiperJaffray",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1357516800,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1355702400,
+      "firm": "Pacific Crest",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1355702400,
+      "firm": "Mizuho",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1355702400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "",
+      "fromGrade": "",
+      "action": "reit"
+    },
+    {
+      "epochGradeDate": 1355702400,
+      "firm": "Citigroup",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1355702400,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1355443200,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1355097600,
+      "firm": "Jefferies",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1354665600,
+      "firm": "Oracle Investment Research",
+      "toGrade": "Strong Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1354492800,
+      "firm": "ABG Sundal Collier",
+      "toGrade": "",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1353888000,
+      "firm": "Citigroup",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1353283200,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1352419200,
+      "firm": "Avondale Partners",
+      "toGrade": "Market Perform",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1351728000,
+      "firm": "Oracle Investment Research",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "up"
+    },
+    {
+      "epochGradeDate": 1351209600,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1351209600,
+      "firm": "FBN Securities",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1351209600,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1351036800,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1351036800,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1349740800,
+      "firm": "Nomura",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1348185600,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1348185600,
+      "firm": "Crowell, Weedon & Co.",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347926400,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347926400,
+      "firm": "Sterne Agee",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347840000,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347580800,
+      "firm": "Hilliard Lyons",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347494400,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347494400,
+      "firm": "Deutsche Bank",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347494400,
+      "firm": "Barclays",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347494400,
+      "firm": "Sterne Agee",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347494400,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347408000,
+      "firm": "Hudson Square",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347408000,
+      "firm": "Hudson Square",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1347235200,
+      "firm": "Monness Crespi Hardt",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1346889600,
+      "firm": "Societe Generale",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1346803200,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1346716800,
+      "firm": "Wedbush",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1346025600,
+      "firm": "Oppenheimer",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1346025600,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1345593600,
+      "firm": "Needham",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1345507200,
+      "firm": "Oracle Investment Research",
+      "toGrade": "Hold",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1345161600,
+      "firm": "Jefferies",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1344470400,
+      "firm": "Stifel Nicolaus",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
+    },
+    {
+      "epochGradeDate": 1343260800,
+      "firm": "Phillip Securities",
+      "toGrade": "Neutral",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "Canaccord Genuity",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "Bank of America",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "Morgan Stanley",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "BMO Capital",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "Goldman Sachs",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "Raymond James",
+      "toGrade": "Outperform",
+      "fromGrade": "",
+      "action": "down"
+    },
+    {
+      "epochGradeDate": 1343174400,
+      "firm": "JP Morgan",
+      "toGrade": "Overweight",
+      "fromGrade": "",
+      "action": "main"
+    },
+    {
+      "epochGradeDate": 1341964800,
+      "firm": "UBS",
+      "toGrade": "Buy",
+      "fromGrade": "",
+      "action": "init"
     }
   ]
 }
