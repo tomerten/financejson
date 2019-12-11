@@ -1,8 +1,11 @@
 from pytest import raises
 import os
 import json
+import pandas as pd
+from pandas.testing import assert_frame_equal
 from financejson.validate import validate_file, validate_dict
 from fastjsonschema.exceptions import JsonSchemaException
+from financejson.convert import convert_file
 
 dir_name = os.path.dirname(__file__)
 
@@ -65,9 +68,9 @@ def test_validate():
     validate_file(file_path)
 
 
-def test_validate_real():
-    file_path = os.path.join(dir_name, 'Data', 'test.json')
-    validate_file(file_path)
+# def test_validate_real():
+#     file_path = os.path.join(dir_name, 'Data', 'test.json')
+#     validate_file(file_path)
 
 
 def test_validate_dict():
@@ -475,21 +478,21 @@ def test_validate_dict___yh_assetprofile___ok():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_assetProfile":
+        "yh_assetProfile": [
             {
                 "date": "2019-01-01",
                 "address1": "foo",
                 "auditRisk": 1,
                 "boardRisk": 2,
                 "city": "bar",
-                "companyOfficers": [
-                    {
-                        "name": "boe",
-                        "title": "CEO"
-                    }
-                ],
                 "country": "a"
+            }],
+        "yh_assetProfile_companyOfficers": [
+            {
+                "name": "boe",
+                "title": "CEO"
             }
+        ]
     }
     validate_dict(dc)
 
@@ -498,20 +501,126 @@ def test_validate_dict___yh_assetprofile___nok_missing_field_companyofficers():
     dc = {
         "yh_symbol": "AAPL",
         "ms_symbol": "US_AAPL",
-        "yh_assetProfile":
+        "yh_assetProfile": [
             {
                 "date": "2019-01-01",
                 "address1": "foo",
                 "auditRisk": 1,
                 "boardRisk": 2,
                 "city": "bar",
-                "companyOfficers": [
-                    {
-                        "title": "CEO"
-                    }
-                ]
+                "country": "a"
+            }],
+        "yh_assetProfile_companyOfficers": [
+            {
+                "title": "CEO"
             }
+        ]
     }
     with raises(JsonSchemaException):
         validate_dict(dc)
 
+
+def test_convert_file___xlsx___ok():
+    file_path = os.path.join(dir_name, 'Data', 'yahoo_sustainability_test_data.json')
+    convert_file(file_path, 'json', 'xlsx')
+    xls = pd.ExcelFile(f'test.xlsx')
+
+    with open(file_path) as finance_file:
+        finance_file = json.load(finance_file)
+
+    _keys = [
+        "yh_earnings_earningsChart_quarterly",
+        "yh_earnings_financialsChart_yearly",
+        "yh_assetProfile",
+        "yh_assetProfile_companyOfficers",
+        "yh_ohlcv_1d"
+    ]
+
+    for k in _keys:
+        if len(k) > 31:
+            sheet_name = '_'.join(k.split('_')[-2:])
+        else:
+            sheet_name = k
+        df0 = pd.DataFrame(finance_file[k])
+        df1 = pd.read_excel(xls, sheet_name)
+        assert_frame_equal(df0, df1)
+
+    _keys = [
+        'yh_symbol',
+        'ms_symbol'
+    ]
+
+    for k in _keys:
+        if len(k) > 31:
+            sheet_name = '_'.join(k.split('_')[-2:])
+        else:
+            sheet_name = k
+        df0 = pd.DataFrame([{k: finance_file[k]}])
+        df1 = pd.read_excel(xls, sheet_name)
+        assert_frame_equal(df0, df1)
+
+    # os.remove(f'test.xlsx')
+
+
+def test_convert_file_h5___ok():
+    file_path = os.path.join(dir_name, 'Data', 'yahoo_sustainability_test_data.json')
+
+    with open(file_path) as finance_file:
+        finance_file = json.load(finance_file)
+
+    name = f'{finance_file.get("yh_symbol", "")}'
+    name = f'{name}.h5'
+
+    # remove previous version if exists
+    if os.path.isfile(name):
+        os.remove(name)
+
+    # convert to h5
+    convert_file(file_path, 'json', 'h5')
+
+    _keys = [
+        "yh_earnings_earningsChart_quarterly",
+        "yh_earnings_financialsChart_yearly",
+        "yh_assetProfile",
+        "yh_assetProfile_companyOfficers",
+        "yh_ohlcv_1d"
+    ]
+
+    for k in _keys:
+        group = f'/{k}'
+        df0 = pd.DataFrame(finance_file[k])
+        df1 = pd.read_hdf(name, key=group)
+        assert_frame_equal(df0, df1)
+
+    os.remove(name)
+
+
+def test_convert_file_csv___ok():
+    file_path = os.path.join(dir_name, 'Data', 'yahoo_sustainability_test_data.json')
+
+    with open(file_path) as finance_file:
+        finance_file = json.load(finance_file)
+
+    _keys = [
+        "yh_earnings_earningsChart_quarterly",
+        "yh_earnings_financialsChart_yearly",
+        "yh_assetProfile",
+        "yh_assetProfile_companyOfficers",
+        "yh_ohlcv_1d"
+    ]
+
+    # convert to h5
+    convert_file(file_path, 'json', 'csv')
+
+    for k in _keys:
+        df0 = pd.DataFrame(finance_file[k])
+        _filename = f'{file_path.split("/")[0]}'
+        _filename += f'{k}.csv'
+        df1 = pd.read_csv(_filename)
+        assert_frame_equal(df0, df1)
+
+    # clean up files
+    for k in finance_file.keys():
+        _filename = f'{file_path.split("/")[0]}'
+        _filename += f'{k}.csv'
+        os.remove(_filename)

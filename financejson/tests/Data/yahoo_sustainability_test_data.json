@@ -3,46 +3,66 @@
   "ms_symbol": "US_XYZ",
   "yh_currency": "USD",
   "ms_currency": "USD",
-  "yh_esgScores": {
-    "ratingYear": 2019,
-    "ratingMonth": 9,
-    "totalEsg": 12.4
-  },
-  "yh_earnings": {
-    "earningsChart": {
-      "quarterly": [
-        {
-          "date": "4Q2018"
-        }
-      ]
-    },
-    "financialsChart": {
-      "yearly": [
-        {
-          "date": 2019
-        }
-      ]
+  "yh_esgScores": [
+    {
+      "ratingYear": 2019,
+      "ratingMonth": 9,
+      "totalEsg": 12.4
     }
-  },
-  "yh_indexTrend": {
-    "estimates": [
-      {
-        "growth": 1,
-        "period": "+1q"
-      },
-      {
-        "growth": 1,
-        "period": "-1q"
-      },
-      {
-        "growth": 1,
-        "period": "1q"
-      },
-      {
-        "growth": 1,
-        "period": "+1y"
-      }
-    ]
-  }
+  ],
+  "yh_earnings_earningsChart_quarterly": [
+    {
+      "date": "4Q2018"
+    }
+  ],
+  "yh_earnings_financialsChart_yearly": [
+    {
+      "date": 2019
+    }
+  ],
+  "yh_indexTrend_estimates": [
+    {
+      "growth": 1,
+      "period": "+1q"
+    },
+    {
+      "growth": 1,
+      "period": "-1q"
+    },
+    {
+      "growth": 1,
+      "period": "1q"
+    },
+    {
+      "growth": 1,
+      "period": "+1y"
+    }
+  ],
+  "yh_assetProfile": [
+    {
+      "date": "2019-01-01",
+      "address1": "foo",
+      "auditRisk": 1,
+      "boardRisk": 2,
+      "city": "bar",
+      "country": "a"
+    }],
+  "yh_assetProfile_companyOfficers": [
+    {
+      "name" : "boe",
+      "title": "CEO"
+    }
+  ],
+  "yh_ohlcv_1d": [
+    {
+      "date": "2019-01-01",
+      "open": 1,
+      "high": 2,
+      "low": 3,
+      "close": 4,
+      "volume": 5
+    }
+  ]
 }
+
 
