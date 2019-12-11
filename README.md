@@ -5,7 +5,15 @@ data structures,
 has a human readable syntax and is available in all common programming languages. 
 It is therefore an 
 appropriate choice to store financial data in this format. Another advantage is 
-that this format allows easy storage and data extraction.
+that this format allows easy storage, data extraction and conversion to different file formats. 
+
+The package currently provides converters to the following file formats:
+- CSV (multiple files)
+- EXCEL (XLSX) 
+- H5 
+
+which are available from the command line. It also provides a kind of tree CLI command to quickly 
+review the internal structure of the JSON file.
 
 ## Specification
 This repository contains the
@@ -22,52 +30,70 @@ A FinanceJSON file for a stock:
   "ms_symbol": "US_XYZ",
   "yh_currency": "USD",
   "ms_currency": "USD",
-  "yh_esgScores": {
-    "ratingyear": 2019,
-    "ratingmonth": 9,
-    "totalEsg": 12.4,
-    "controversyOverview": [
-      "alcohol",
-      "nuclear"
-    ]
-  },
-  "yh_earnings": {
-    "earningsChart": {
-      "quarterly": [
-        {
-          "date": "4Q2018"
-        }
-      ]
-    },
-    "financialChart": {
-      "yearly": [
-        {
-          "date": "1Q2010"
-        }
-      ]
+  "yh_esgScores": [
+    {
+      "ratingYear": 2019,
+      "ratingMonth": 9,
+      "totalEsg": 12.4
     }
-  },
-  "yh_indexTrend": {
-    "estimates": [
-      {
-        "growth": 1,
-        "period": "+1q"
-      },
-      {
-        "growth": 1,
-        "period": "-1q"
-      },
-      {
-        "growth": 1,
-        "period": "1q"
-      },
-      {
-        "growth": 1,
-        "period": "+1y"
-      }
-    ]
-  }
+  ],
+  "yh_earnings_earningsChart_quarterly": [
+    {
+      "date": "4Q2018"
+    }
+  ],
+  "yh_earnings_financialsChart_yearly": [
+    {
+      "date": 2019
+    }
+  ],
+  "yh_indexTrend_estimates": [
+    {
+      "growth": 1,
+      "period": "+1q"
+    },
+    {
+      "growth": 1,
+      "period": "-1q"
+    },
+    {
+      "growth": 1,
+      "period": "1q"
+    },
+    {
+      "growth": 1,
+      "period": "+1y"
+    }
+  ],
+  "yh_assetProfile": [
+    {
+      "date": "2019-01-01",
+      "address1": "foo",
+      "auditRisk": 1,
+      "boardRisk": 2,
+      "city": "bar",
+      "country": "a"
+    }],
+  "yh_assetProfile_companyOfficers": [
+    {
+      "name" : "boe",
+      "title": "CEO"
+    }
+  ],
+  "yh_ohlcv_1d": [
+    {
+      "date": "2019-01-01",
+      "open": 1,
+      "high": 2,
+      "low": 3,
+      "close": 4,
+      "volume": 5
+    }
+  ]
 }
+
+
+
 ```
  
  
@@ -93,12 +119,15 @@ financejson treejson /path/to/financejsonfile
 
 Convert a financeJSON file into an HDF5 file:
 ```bash
+financejson convert json h5 /path/to/financejsonfile
+financejson convert json hdf /path/to/financejsonfile
 financejson convert json hdf5 /path/to/financejsonfile
 ```
 
-Convert a financeJSON file into an Excel readable file:
+Convert a financeJSON file into an Excel readable file (each key is written
+to a separate sheet):
 ```bash
-financejson convert json excel /path/to/financejsonfile
+financejson convert json xlsx /path/to/financejsonfile
 ```
 ## License
 [GNU General Public License 
