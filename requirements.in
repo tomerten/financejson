@@ -1,0 +1,8 @@
+pandas
+h5py
+termcolor
+fastjsonschema
+click
+tables
+xlsxwriter
+xlrd
