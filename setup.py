@@ -9,7 +9,7 @@ with open('README.md') as file:
 
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
-    
+
 setup(
     name=about['__title__'],
     version=about['__version__'],
@@ -35,6 +35,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
-        'Topic :: Financial'
+        'Topic :: Office/Business :: Financial',
+        'Intended Audience :: Financial and Insurance Industry'
     ],
 )
