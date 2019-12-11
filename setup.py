@@ -7,6 +7,9 @@ with open('financejson/__about__.py') as file:
 with open('README.md') as file:
     readme = file.read()
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+    
 setup(
     name=about['__title__'],
     version=about['__version__'],
