@@ -17,7 +17,7 @@ setup(
     author=about['__author__'],
     license=about['__license__'],
     packages=find_packages(),
-    install_requires=['fastjsonschema', 'click', 'pandas'],
+    install_requires=['fastjsonschema', 'click', 'pandas', 'tables'],
     test_requires=['pytest'],
     python_requires='>=3.6',
     include_package_data=True,
