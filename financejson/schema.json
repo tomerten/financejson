@@ -932,7 +932,7 @@
         }
       }
     },
-    "yh_earnings_earnings_Chart_quarterly": {
+    "yh_earnings_earningsChart_quarterly": {
       "type": "array",
       "items": {
         "type": "object",
@@ -978,8 +978,7 @@
         "type": "object",
         "properties": {
           "date": {
-            "type": "string",
-            "pattern": "^[1-4]Q[0-9]{4}"
+            "type": "integer"
           },
           "earnings": {
             "type": "number"
@@ -1995,7 +1994,7 @@
       }
     },
     "yh_quoteType": {
-      "type" : "array",
+      "type": "array",
       "items": {
         "type": "object",
         "properties": {
@@ -2125,7 +2124,7 @@
       }
     },
     "yh_summaryDetail": {
-      "type" : "array",
+      "type": "array",
       "items": {
         "type": "object",
         "properties": {
