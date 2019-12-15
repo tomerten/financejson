@@ -1,8 +1,24 @@
 {
-  "yh_symbol": "XYZ",
-  "ms_symbol": "US_XYZ",
-  "yh_currency": "USD",
-  "ms_currency": "USD",
+  "yh_symbol": [
+    {
+      "symbol": "XYZ"
+    }
+  ],
+  "ms_symbol": [
+    {
+      "symbol": "US_XYZ"
+    }
+  ],
+  "yh_currency": [
+    {
+      "currency": "USD"
+    }
+  ],
+  "ms_currency": [
+    {
+      "currency": "USD"
+    }
+  ],
   "yh_esgScores": [
     {
       "ratingYear": 2019,
@@ -46,10 +62,11 @@
       "boardRisk": 2,
       "city": "bar",
       "country": "a"
-    }],
+    }
+  ],
   "yh_assetProfile_companyOfficers": [
     {
-      "name" : "boe",
+      "name": "boe",
       "title": "CEO"
     }
   ],

@@ -81,21 +81,21 @@ def test_validate_dict():
 
 
 def test_validate_dict____yh_symbol():
-    dc = {"yh_symbol": "AAPL"}
+    dc = {"yh_symbol": [{"symbol": "AAPL"}]}
     with raises(JsonSchemaException):
         validate_dict(dc)
 
 
 def test_validate_dict____ms_symbol():
-    dc = {"ms_symbol": "US_AAPL"}
+    dc = {"ms_symbol": [{"symbol": "US_AAPL"}]}
     with raises(JsonSchemaException):
         validate_dict(dc)
 
 
 def test_validate_dict____yh_ms_symbol():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL"
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}]
     }
     validate_dict(dc)
 
@@ -103,7 +103,7 @@ def test_validate_dict____yh_ms_symbol():
 def test_validate_dict____yh_ms_symbol_integer_yh():
     dc = {
         "yh_symbol": 1,
-        "ms_symbol": "US_AAPL"
+        "ms_symbol": [{"symbol": "US_AAPL"}]
     }
     with raises(JsonSchemaException):
         validate_dict(dc)
@@ -111,7 +111,7 @@ def test_validate_dict____yh_ms_symbol_integer_yh():
 
 def test_validate_dict____yh_ms_symbol_integer_ms():
     dc = {
-        "yh_symbol": "AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
         "ms_symbol": 1
     }
     with raises(JsonSchemaException):
@@ -120,19 +120,19 @@ def test_validate_dict____yh_ms_symbol_integer_ms():
 
 def test_validate_dict____currency_ok(tmp_path):
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL"
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}]
     }
     for currency in currencies:
-        dc["yh_currency"] = currency
+        dc["yh_currency"] = [{"currency": currency}]
         validate_dict(dc)
 
 
 def test_validate_dict____currency_nok():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
-        "yh_currency": "BOE"
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
+        "yh_currency": [{"currency": "BOE"}]
     }
     with raises(JsonSchemaException):
         validate_dict(dc)
@@ -140,8 +140,8 @@ def test_validate_dict____currency_nok():
 
 def test_validate_dict____yh_price_data_1d_ok():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
@@ -158,8 +158,8 @@ def test_validate_dict____yh_price_data_1d_ok():
 
 def test_validate_dict____yh_price_data_1d___nok_missing_fields():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "open": 1,
@@ -175,8 +175,8 @@ def test_validate_dict____yh_price_data_1d___nok_missing_fields():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_1():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "19-01-01",
@@ -194,8 +194,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_1():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_2():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "01-01-2019",
@@ -213,8 +213,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_2():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_3():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2018-11-13T20:20:39+00:00",
@@ -232,8 +232,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_3():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_open():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
@@ -251,8 +251,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_open():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_high():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
@@ -270,8 +270,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_high():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_low():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
@@ -289,8 +289,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_low():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_close():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
@@ -308,8 +308,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_close():
 
 def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_volume():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
                 "date": "2019-01-01",
@@ -327,8 +327,8 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_volume():
 
 def test_validate_dict____yh_price_data_1m_ok():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
@@ -345,8 +345,8 @@ def test_validate_dict____yh_price_data_1m_ok():
 
 def test_validate_dict____yh_price_data_1m___nok_missing_fields():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "open": 1,
@@ -362,8 +362,8 @@ def test_validate_dict____yh_price_data_1m___nok_missing_fields():
 
 def test_validate_dict___yh_price_data_1m___nok_wrong_date_format_1():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "13-11-2018T20:20:39+00:00",
@@ -381,8 +381,8 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_date_format_1():
 
 def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_open():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
@@ -400,8 +400,8 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_open():
 
 def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_high():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
@@ -419,8 +419,8 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_high():
 
 def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_low():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
@@ -438,8 +438,8 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_low():
 
 def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_close():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
@@ -457,8 +457,8 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_close():
 
 def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_volume():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
                 "datetime": "2018-11-13T20:20:39+00:00",
@@ -476,8 +476,8 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_volume():
 
 def test_validate_dict___yh_assetprofile___ok():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_assetProfile": [
             {
                 "date": "2019-01-01",
@@ -499,8 +499,8 @@ def test_validate_dict___yh_assetprofile___ok():
 
 def test_validate_dict___yh_assetprofile___nok_missing_field_companyofficers():
     dc = {
-        "yh_symbol": "AAPL",
-        "ms_symbol": "US_AAPL",
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_assetProfile": [
             {
                 "date": "2019-01-01",
@@ -529,6 +529,8 @@ def test_convert_file___xlsx___ok():
         finance_file = json.load(finance_file)
 
     _keys = [
+        'yh_symbol',
+        'ms_symbol',
         "yh_earnings_earningsChart_quarterly",
         "yh_earnings_financialsChart_yearly",
         "yh_assetProfile",
@@ -542,20 +544,6 @@ def test_convert_file___xlsx___ok():
         else:
             sheet_name = k
         df0 = pd.DataFrame(finance_file[k])
-        df1 = pd.read_excel(xls, sheet_name)
-        assert_frame_equal(df0, df1)
-
-    _keys = [
-        'yh_symbol',
-        'ms_symbol'
-    ]
-
-    for k in _keys:
-        if len(k) > 31:
-            sheet_name = '_'.join(k.split('_')[-2:])
-        else:
-            sheet_name = k
-        df0 = pd.DataFrame([{k: finance_file[k]}])
         df1 = pd.read_excel(xls, sheet_name)
         assert_frame_equal(df0, df1)
 

@@ -245,21 +245,53 @@
   "type": "object",
   "properties": {
     "yh_symbol": {
-      "type": "string",
-      "description": "Yahoo symbol name"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "description": "Yahoo symbol name"
+          }
+        }
+      }
     },
     "ms_symbol": {
-      "type": "string",
-      "description": "MorningStar symbol name"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "symbol": {
+            "type": "string",
+            "description": "MorningStar symbol name"
+          }
+        }
+      }
     },
     "yh_currency": {
-      "$ref": "#/definitions/currency",
-      "description": "yahoo currency"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "currency": {
+            "$ref": "#/definitions/currency",
+            "description": "yahoo currency"
+          }
+        }
+      }
     },
     "ms_currency": {
-      "$ref": "#/definitions/currency",
-      "description": "morningstar currency",
-      "additionalProperties": false
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "currency": {
+            "$ref": "#/definitions/currency",
+            "description": "morningstar currency",
+            "additionalProperties": false
+          }
+        }
+      }
     },
     "yh_ohlcv_3mo": {
       "type": "array",
