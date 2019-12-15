@@ -26,10 +26,26 @@ in form of a [JSON Schema](https://json-schema.org).
 A FinanceJSON file for a stock:
 ```json
 {
-  "yh_symbol": "XYZ",
-  "ms_symbol": "US_XYZ",
-  "yh_currency": "USD",
-  "ms_currency": "USD",
+  "yh_symbol": [
+    {
+      "symbol": "XYZ"
+    }
+  ],
+  "ms_symbol": [
+    {
+      "symbol": "US_XYZ"
+    }
+  ],
+  "yh_currency": [
+    {
+      "currency": "USD"
+    }
+  ],
+  "ms_currency": [
+    {
+      "currency": "USD"
+    }
+  ],
   "yh_esgScores": [
     {
       "ratingYear": 2019,
@@ -73,10 +89,11 @@ A FinanceJSON file for a stock:
       "boardRisk": 2,
       "city": "bar",
       "country": "a"
-    }],
+    }
+  ],
   "yh_assetProfile_companyOfficers": [
     {
-      "name" : "boe",
+      "name": "boe",
       "title": "CEO"
     }
   ],
@@ -91,15 +108,12 @@ A FinanceJSON file for a stock:
     }
   ]
 }
-
-
-
 ```
  
  
 # FinanceJSON CLI
 [![Python 
-Version](https://img.shields.io/pypi/pyversions/financejson)](https://pypi.org/project/financejson/)
+Version](https://img.shields.io/pypi/pyversions/financejson)](https://pypi.org/project/financeJSON/)
 [![PyPI](https://img.shields.io/pypi/v/financejson.svg)](https://pypi.org/project/financejson/)
 [![CI](https://github.com/tomerten/financejson/workflows/CI/badge.svg)](https://github.com/tomerten/financejson/actions?query=workflow%3ACI)
 
