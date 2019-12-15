@@ -1,6 +1,6 @@
 __title__ = 'financeJSON'
 __description__ = 'A JSON based finance file format'
 __url__ = 'https://github.com/tomerten/financejson'
-__version__ = '1.0.1-aplha.2'
+__version__ = 'V1.0.1alpha2'
 __author__ = 'Tom Mertens'
 __license__ = 'GNU General Public License v3.0'
