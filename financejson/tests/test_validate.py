@@ -124,7 +124,7 @@ def test_validate_dict____currency_ok(tmp_path):
         "ms_symbol": [{"symbol": "US_AAPL"}]
     }
     for currency in currencies:
-        dc["yh_currency"] = [{"currency": currency}]
+        dc["yh_currency"] = [{"currency": currency, "index_symbol": "XYZ",}]
         validate_dict(dc)
 
 
@@ -132,7 +132,7 @@ def test_validate_dict____currency_nok():
     dc = {
         "yh_symbol": [{"symbol": "AAPL"}],
         "ms_symbol": [{"symbol": "US_AAPL"}],
-        "yh_currency": [{"currency": "BOE"}]
+        "yh_currency": [{"currency": "BOE","index_symbol": "XYZ"}]
     }
     with raises(JsonSchemaException):
         validate_dict(dc)
@@ -144,6 +144,7 @@ def test_validate_dict____yh_price_data_1d_ok():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "open": 1,
                 "high": 2,
@@ -162,6 +163,7 @@ def test_validate_dict____yh_price_data_1d___nok_missing_fields():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "open": 1,
                 "high": 2,
                 "low": 3,
@@ -179,6 +181,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_1():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "19-01-01",
                 "open": 1,
                 "high": 2,
@@ -198,6 +201,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_2():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "01-01-2019",
                 "open": 1,
                 "high": 2,
@@ -217,6 +221,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_date_format_3():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
@@ -236,6 +241,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_open():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "open": "boe",
                 "high": 2,
@@ -255,6 +261,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_high():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "open": 1,
                 "high": "boe",
@@ -274,6 +281,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_low():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "open": 1,
                 "high": 2,
@@ -293,6 +301,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_close():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "open": 1,
                 "high": 2,
@@ -312,6 +321,7 @@ def test_validate_dict___yh_price_data_1d___nok_wrong_field_type_volume():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1d": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "open": 1,
                 "high": 2,
@@ -331,6 +341,7 @@ def test_validate_dict____yh_price_data_1m_ok():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
@@ -349,6 +360,7 @@ def test_validate_dict____yh_price_data_1m___nok_missing_fields():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "open": 1,
                 "high": 2,
                 "low": 3,
@@ -366,6 +378,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_date_format_1():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "13-11-2018T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
@@ -385,6 +398,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_open():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": "boe",
                 "high": 2,
@@ -404,6 +418,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_high():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": "2",
@@ -423,6 +438,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_low():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
@@ -442,6 +458,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_close():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
@@ -461,6 +478,7 @@ def test_validate_dict___yh_price_data_1m___nok_wrong_field_type_volume():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_ohlcv_1m": [
             {
+                "index_symbol": "XYZ",
                 "datetime": "2018-11-13T20:20:39+00:00",
                 "open": 1,
                 "high": 2,
@@ -480,6 +498,7 @@ def test_validate_dict___yh_assetprofile___ok():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_assetProfile": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "address1": "foo",
                 "auditRisk": 1,
@@ -489,6 +508,7 @@ def test_validate_dict___yh_assetprofile___ok():
             }],
         "yh_assetProfile_companyOfficers": [
             {
+                "index_symbol": "XYZ",
                 "name": "boe",
                 "title": "CEO"
             }
@@ -503,6 +523,7 @@ def test_validate_dict___yh_assetprofile___nok_missing_field_companyofficers():
         "ms_symbol": [{"symbol": "US_AAPL"}],
         "yh_assetProfile": [
             {
+                "index_symbol": "XYZ",
                 "date": "2019-01-01",
                 "address1": "foo",
                 "auditRisk": 1,
@@ -512,6 +533,7 @@ def test_validate_dict___yh_assetprofile___nok_missing_field_companyofficers():
             }],
         "yh_assetProfile_companyOfficers": [
             {
+                "index_symbol": "XYZ",
                 "title": "CEO"
             }
         ]

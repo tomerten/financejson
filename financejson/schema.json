@@ -9,6 +9,10 @@
     "ms_symbol"
   ],
   "definitions": {
+    "index_symbol": {
+      "type": "string",
+      "description": "yh symbol acts as (part of) index in sql table"
+    },
     "currency": {
       "type": "string",
       "enum": [
@@ -90,6 +94,9 @@
       ],
       "type": "object",
       "properties": {
+        "index_symbol": {
+          "$ref": "#/definitions/index_symbol"
+        },
         "date": {
           "$ref": "#/definitions/date"
         },
@@ -151,6 +158,19 @@
     "peerPerformance": {
       "type": "object",
       "properties": {
+        "index_symbol": {
+          "$ref": "#/definitions/index_symbol"
+        },
+        "ratingYear": {
+          "type": "integer",
+          "description": "year of rating"
+        },
+        "ratingMonth": {
+          "type": "integer",
+          "description": "month of rating",
+          "minimum": 1,
+          "maximum": 12
+        },
         "min": {
           "description": "minimum peer performance",
           "$ref": "#/definitions/percentage"
@@ -170,6 +190,7 @@
       "type": "object",
       "description": "OHLCV for intervals 1d and longer",
       "required": [
+        "index_symbol",
         "date",
         "open",
         "high",
@@ -178,6 +199,9 @@
         "volume"
       ],
       "properties": {
+        "index_symbol": {
+          "$ref": "#/definitions/index_symbol"
+        },
         "date": {
           "$ref": "#/definitions/date"
         },
@@ -208,6 +232,7 @@
       "type": "object",
       "description": "OHLCV for intervals 1d and longer",
       "required": [
+        "index_symbol",
         "datetime",
         "open",
         "high",
@@ -216,6 +241,9 @@
         "volume"
       ],
       "properties": {
+        "index_symbol": {
+          "$ref": "#/definitions/index_symbol"
+        },
         "datetime": {
           "$ref": "#/definitions/datetime"
         },
@@ -272,7 +300,13 @@
       "type": "array",
       "items": {
         "type": "object",
+        "required": [
+          "index_symbol"
+        ],
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "currency": {
             "$ref": "#/definitions/currency",
             "description": "yahoo currency"
@@ -284,7 +318,13 @@
       "type": "array",
       "items": {
         "type": "object",
+        "required": [
+          "index_symbol"
+        ],
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "currency": {
             "$ref": "#/definitions/currency",
             "description": "morningstar currency",
@@ -376,7 +416,14 @@
       "type": "array",
       "items": {
         "type": "object",
+        "required": [
+          "index_symbol",
+          "date"
+        ],
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "date": {
             "description": "Date assetProfile",
             "$ref": "#/definitions/date"
@@ -447,6 +494,10 @@
     "yh_assetProfile_companyOfficers": {
       "description": "overview of the company officers (CEO,FCO,...)",
       "type": "array",
+      "required": [
+        "index_symbol",
+        "name"
+      ],
       "items": {
         "$ref": "#/definitions/officer"
       }
@@ -454,9 +505,16 @@
     "yh_balanceSheetStatementsYearly": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "accountsPayable": {
             "type": "number"
           },
@@ -535,11 +593,15 @@
     "yh_balanceSheetStatementsQuarterly": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
-          "last_update": {
-            "$ref": "#/definitions/date"
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
           },
           "accountsPayable": {
             "type": "number"
@@ -618,25 +680,42 @@
     },
     "yh_calendarEvents": {
       "additionalProperties": false,
-      "type": "object",
-      "properties": {
-        "last_update": {
-          "$ref": "#/definitions/date"
-        },
-        "dividendDate": {
-          "$ref": "#/definitions/date"
-        },
-        "exDividendDate": {
-          "$ref": "#/definitions/date"
+      "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date"
+          },
+          "dividendDate": {
+            "$ref": "#/definitions/date"
+          },
+          "exDividendDate": {
+            "$ref": "#/definitions/date"
+          }
         }
       }
     },
     "yh_calendarEvents_earnings": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "earningsDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "earningsDate": {
             "$ref": "#/definitions/date"
           },
@@ -663,12 +742,16 @@
     },
     "yh_cashflowStatementsYearly": {
       "additionalProperties": false,
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "last_updated": {
-            "$ref": "#/definitions/date"
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
           },
           "capitalExpenditures": {
             "type": "number"
@@ -736,9 +819,16 @@
     "yh_cashflowStatementsQuarterly": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "capitalExpenditures": {
             "type": "number"
           },
@@ -805,11 +895,15 @@
     "yh_keyStatistics": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "lastFiscalYearEnd"
+      ],
       "items": {
         "type": "object",
         "properties": {
-          "last_updated": {
-            "$ref": "#/definitions/date"
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
           },
           "52WeekChange": {
             "$ref": "#/definitions/percentchange"
@@ -966,9 +1060,16 @@
     },
     "yh_earnings_earningsChart_quarterly": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "date": {
             "type": "string",
             "pattern": "^[1-4]Q[0-9]{4}"
@@ -985,9 +1086,16 @@
     "yh_earnings_earningsChart": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "earningsDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "currentQuarterEstimate": {
             "type": "number"
           },
@@ -1006,9 +1114,16 @@
     },
     "yh_earnings_financialsChart_yearly": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "date": {
             "type": "integer"
           },
@@ -1023,9 +1138,16 @@
     },
     "yh_earnings_financialsChart_quarterly": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "date": {
             "type": "string",
             "pattern": "^[1-4]Q[0-9]{4}"
@@ -1041,9 +1163,15 @@
     },
     "yh_earnings": {
       "type": "array",
+      "required": [
+        "index_symbol"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "financialCurrency": {
             "$ref": "#/definitions/currency"
           }
@@ -1053,9 +1181,16 @@
     "yh_earningsHistory": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "quarter"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "epsActual": {
             "type": "number"
           },
@@ -1081,9 +1216,16 @@
     "yh_earningsTrend": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "endDate": {
             "$ref": "#/definitions/date"
           },
@@ -1179,47 +1321,103 @@
     },
     "yh_esgScores_peerEsgScorePerformance": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
         "$ref": "#/definitions/peerPerformance"
       }
     },
     "yh_esgScores_peerGovernancePerformance": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
         "$ref": "#/definitions/peerPerformance"
       }
     },
     "yh_esgScores_peerSocialPerformance": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
         "$ref": "#/definitions/peerPerformance"
       }
     },
     "yh_esgScores_peerEnvironmentPerformance": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
         "$ref": "#/definitions/peerPerformance"
       }
     },
     "yh_esgScores_peerHighestControversyPerformance": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
         "$ref": "#/definitions/peerPerformance"
       }
     },
     "yh_esgScores_relatedControversy": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
-        "type": "string",
-        "description": "description of the controversy"
+        "type": "object",
+        "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "ratingYear": {
+            "type": "integer",
+            "description": "year of rating"
+          },
+          "ratingMonth": {
+            "type": "integer",
+            "description": "month of rating",
+            "minimum": 1,
+            "maximum": 12
+          },
+          "controversy": {
+            "type": "string",
+            "description": "description of the controversy"
+          }
+        }
       }
     },
     "yh_esgScores": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "ratingYear",
+        "ratingMonth"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "ratingYear": {
             "type": "integer",
             "description": "year of rating"
@@ -1348,9 +1546,19 @@
     "yh_financial_data": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date"
+          },
           "currentPrice": {
             "type": "number"
           },
@@ -1450,9 +1658,16 @@
     },
     "yh_fundOwnership_ownershipList": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "reportDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "organization": {
             "type": "string"
           },
@@ -1474,9 +1689,16 @@
     "yh_incomeStatementHistory": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "endDate": {
             "$ref": "#/definitions/date"
           },
@@ -1552,9 +1774,16 @@
     "yh_incomeStatementHistoryQuarterly": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "endDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "endDate": {
             "$ref": "#/definitions/date"
           },
@@ -1630,9 +1859,16 @@
     "yh_indexTrend_estimates": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "growth": {
             "type": "number"
           },
@@ -1646,9 +1882,20 @@
     "yh_indexTrend": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date",
+            "description": "date of logging"
+          },
           "peRatio": {
             "type": "number"
           },
@@ -1664,9 +1911,16 @@
     "yh_industryTrend_estimates": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "period"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "growth": {
             "type": "number"
           },
@@ -1680,9 +1934,20 @@
     "yh_industryTrend": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date",
+            "description": "date of logging"
+          },
           "peRatio": {
             "type": "number"
           },
@@ -1698,9 +1963,18 @@
     "yh_insiderHolders": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "latestTransDate",
+        "name",
+        "transactionDescription"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "latestTransDate": {
             "$ref": "#/definitions/date"
           },
@@ -1736,9 +2010,17 @@
     "yh_insiderTransactions": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "filerName",
+        "startDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "filerName": {
             "type": "string"
           },
@@ -1779,9 +2061,17 @@
     },
     "yh_institutionOwnership": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "organization",
+        "reportDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "organization": {
             "type": "string"
           },
@@ -1802,9 +2092,17 @@
     },
     "yh_majorDirectHolders": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "name",
+        "reportDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "name": {
             "type": "string"
           },
@@ -1825,9 +2123,16 @@
     },
     "yh_majorHoldersBreakdown": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "date": {
             "$ref": "#/definitions/date"
           },
@@ -1849,9 +2154,16 @@
     },
     "yh_netSharePurchaseActivity": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "period"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "buyInfoCount": {
             "type": "number"
           },
@@ -1890,9 +2202,20 @@
     },
     "yh_price": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date",
+            "description": "date of logging"
+          },
           "averageDailyVolume10Day": {
             "type": "number"
           },
@@ -2027,9 +2350,15 @@
     },
     "yh_quoteType": {
       "type": "array",
+      "required": [
+        "index_symbol"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "exchange": {
             "type": "string"
           },
@@ -2071,9 +2400,20 @@
     },
     "yh_recommendationTrend": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date",
+            "description": "date of logging"
+          },
           "buy": {
             "type": "integer"
           },
@@ -2098,9 +2438,17 @@
     },
     "yh_secFilings": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date",
+        "type"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "date": {
             "$ref": "#/definitions/date"
           },
@@ -2124,9 +2472,21 @@
     "yh_sectorTrend_estimates": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date",
+        "period"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date",
+            "description": "date of logging"
+          },
           "growth": {
             "type": "number"
           },
@@ -2140,9 +2500,21 @@
     "yh_sectorTrend": {
       "additionalProperties": false,
       "type": "array",
+      "required": [
+        "index_symbol",
+        "date",
+        "period"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "$ref": "#/definitions/date",
+            "description": "date of logging"
+          },
           "peRatio": {
             "type": "number"
           },
@@ -2157,9 +2529,16 @@
     },
     "yh_summaryDetail": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "startDate"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "algorithm": {
             "type": "string"
           },
@@ -2317,9 +2696,18 @@
     },
     "yh_upgradeDowngradeHistory": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "firm",
+        "epochGradeDate",
+        "action"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "action": {
             "type": "string"
           },
@@ -2340,8 +2728,15 @@
     },
     "ms_balancesheet": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "year"
+      ],
       "items": {
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "AccountsPayable": {
             "type": "number"
           },
@@ -2410,9 +2805,16 @@
     },
     "ms_profitabilityRatios": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "year"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "AssetTurnoverAverage": {
             "type": "number"
           },
@@ -2469,9 +2871,16 @@
     },
     "ms_cashflowsheet": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "year"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "CapExasaofSales": {
             "type": "number"
           },
@@ -2510,9 +2919,16 @@
     },
     "ms_liquidity": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "year"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "year": {
             "type": "integer"
           },
@@ -2548,9 +2964,16 @@
     },
     "ms_financials": {
       "type": "array",
+      "required": [
+        "index_symbol",
+        "year"
+      ],
       "items": {
         "type": "object",
         "properties": {
+          "index_symbol": {
+            "$ref": "#/definitions/index_symbol"
+          },
           "BookValuePerShare": {
             "type": "number"
           },

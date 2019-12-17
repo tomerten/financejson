@@ -11,16 +11,19 @@
   ],
   "yh_currency": [
     {
+      "index_symbol" : "XYZ",
       "currency": "USD"
     }
   ],
   "ms_currency": [
     {
+      "index_symbol": "XYZ",
       "currency": "USD"
     }
   ],
   "yh_esgScores": [
     {
+      "index_symbol": "XYZ",
       "ratingYear": 2019,
       "ratingMonth": 9,
       "totalEsg": 12.4
@@ -28,34 +31,41 @@
   ],
   "yh_earnings_earningsChart_quarterly": [
     {
+      "index_symbol": "XYZ",
       "date": "4Q2018"
     }
   ],
   "yh_earnings_financialsChart_yearly": [
     {
+      "index_symbol": "XYZ",
       "date": 2019
     }
   ],
   "yh_indexTrend_estimates": [
     {
+      "index_symbol": "XYZ",
       "growth": 1,
       "period": "+1q"
     },
     {
+      "index_symbol": "XYZ",
       "growth": 1,
       "period": "-1q"
     },
     {
+      "index_symbol": "XYZ",
       "growth": 1,
       "period": "1q"
     },
     {
+      "index_symbol": "XYZ",
       "growth": 1,
       "period": "+1y"
     }
   ],
   "yh_assetProfile": [
     {
+      "index_symbol": "XYZ",
       "date": "2019-01-01",
       "address1": "foo",
       "auditRisk": 1,
@@ -66,12 +76,14 @@
   ],
   "yh_assetProfile_companyOfficers": [
     {
+      "index_symbol": "XYZ",
       "name": "boe",
       "title": "CEO"
     }
   ],
   "yh_ohlcv_1d": [
     {
+      "index_symbol": "XYZ",
       "date": "2019-01-01",
       "open": 1,
       "high": 2,
