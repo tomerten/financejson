@@ -160,6 +160,6 @@ financejson convert json xlsx /path/to/financejsonfile
 ```
 ## License
 [GNU General Public License 
-v3.0](https://github.com/andreasfelix/latticejson/blob/master/LICENSE)
+v3.0](https://github.com/tomerten/financejson/blob/master/LICENSE)
 
 
