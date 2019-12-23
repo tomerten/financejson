@@ -124,7 +124,7 @@ def test_validate_dict____currency_ok(tmp_path):
         "ms_symbol": [{"symbol": "US_AAPL"}]
     }
     for currency in currencies:
-        dc["yh_currency"] = [{"currency": currency, "index_symbol": "XYZ",}]
+        dc["yh_currency"] = [{"currency": currency, "index_symbol": "XYZ", }]
         validate_dict(dc)
 
 
@@ -132,7 +132,7 @@ def test_validate_dict____currency_nok():
     dc = {
         "yh_symbol": [{"symbol": "AAPL"}],
         "ms_symbol": [{"symbol": "US_AAPL"}],
-        "yh_currency": [{"currency": "BOE","index_symbol": "XYZ"}]
+        "yh_currency": [{"currency": "BOE", "index_symbol": "XYZ"}]
     }
     with raises(JsonSchemaException):
         validate_dict(dc)
@@ -514,8 +514,62 @@ def test_validate_dict___yh_assetprofile___ok():
             }
         ]
     }
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+
+def test_validate_dict___yh_assetprofile___ok():
+    dc = {
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
+        "yh_assetProfile": [
+            {
+                "index_symbol": "XYZ",
+                "date": "2019-01-01",
+                "address1": "foo",
+                "auditRisk": 1,
+                "boardRisk": 2,
+                "city": "bar",
+                "country": "a"
+            }],
+        "yh_assetProfile_companyOfficers": [
+            {
+                "index_symbol": "XYZ",
+                "name": "boe",
+                "title": "CEO"
+            }
+        ]
+    }
+
     validate_dict(dc)
 
+
+def test_validate_dict___yh_peerperfomance___nok():
+    dc = {
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
+        "yh_esgScores_peerEnvironmentPerformance": [{'min': 41.23,
+                                                     'avg': 68.50263157894736,
+                                                     'max': 96.22,
+                                                     'index_symbol': 'XYZ'}]
+    }
+
+    with raises(JsonSchemaException):
+        validate_dict(dc)
+
+def test_validate_dict___yh_peerperfomance___ok():
+    dc = {
+        "yh_symbol": [{"symbol": "AAPL"}],
+        "ms_symbol": [{"symbol": "US_AAPL"}],
+        "yh_esgScores_peerEnvironmentPerformance": [{'min': 41.23,
+                                                     'avg': 68.50263157894736,
+                                                     'max': 96.22,
+                                                     'index_symbol': 'XYZ',
+                                                     'ratingYear' : 2019,
+                                                     'ratingMonth': 1
+                                                     }]
+    }
+    validate_dict(dc)
 
 def test_validate_dict___yh_assetprofile___nok_missing_field_companyofficers():
     dc = {
