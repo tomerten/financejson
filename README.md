@@ -71,21 +71,25 @@ A FinanceJSON file for a stock:
   "yh_indexTrend_estimates": [
     {
       "index_symbol": "XYZ",
+      "date" : "2019-01-01",
       "growth": 1,
       "period": "+1q"
     },
     {
       "index_symbol": "XYZ",
+      "date" : "2019-01-01",
       "growth": 1,
       "period": "-1q"
     },
     {
       "index_symbol": "XYZ",
+      "date" : "2019-01-01",
       "growth": 1,
       "period": "1q"
     },
     {
       "index_symbol": "XYZ",
+      "date" : "2019-01-01",
       "growth": 1,
       "period": "+1y"
     }
@@ -120,9 +124,6 @@ A FinanceJSON file for a stock:
     }
   ]
 }
-
-
-
 ```
  
  
