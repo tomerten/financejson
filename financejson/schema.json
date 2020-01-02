@@ -1839,9 +1839,13 @@
         "type": "object",
         "required": [
           "index_symbol",
-          "date"
+          "date",
+          "period"
         ],
         "properties": {
+          "date": {
+            "type": "string"
+          },
           "index_symbol": {
             "$ref": "#/definitions/index_symbol"
           },
@@ -1869,8 +1873,8 @@
             "$ref": "#/definitions/index_symbol"
           },
           "date": {
-            "$ref": "#/definitions/date",
-            "description": "date of logging"
+            "type": "string",
+            "description": "quarter of logging"
           },
           "peRatio": {
             "type": "number"
@@ -1891,11 +1895,16 @@
         "type": "object",
         "required": [
           "index_symbol",
-          "period"
+          "period",
+          "date"
         ],
         "properties": {
           "index_symbol": {
             "$ref": "#/definitions/index_symbol"
+          },
+          "date": {
+            "type": "string",
+            "description": "quarter of estimates"
           },
           "growth": {
             "type": "number"
@@ -1921,8 +1930,8 @@
             "$ref": "#/definitions/index_symbol"
           },
           "date": {
-            "$ref": "#/definitions/date",
-            "description": "date of logging"
+            "type": "string",
+            "description": "quarter of logging"
           },
           "peRatio": {
             "type": "number"
@@ -2380,15 +2389,16 @@
         "type": "object",
         "required": [
           "index_symbol",
-          "date"
+          "date",
+          "period"
         ],
         "properties": {
           "index_symbol": {
             "$ref": "#/definitions/index_symbol"
           },
           "date": {
-            "$ref": "#/definitions/date",
-            "description": "date of logging"
+            "type": "string",
+            "description": "year and month of recommendation"
           },
           "buy": {
             "type": "integer"
@@ -2460,8 +2470,8 @@
             "$ref": "#/definitions/index_symbol"
           },
           "date": {
-            "$ref": "#/definitions/date",
-            "description": "date of logging"
+            "type": "string",
+            "description": "quarter of estimate"
           },
           "growth": {
             "type": "number"
@@ -2480,16 +2490,15 @@
         "type": "object",
         "required": [
           "index_symbol",
-          "date",
-          "period"
+          "date"
         ],
         "properties": {
           "index_symbol": {
             "$ref": "#/definitions/index_symbol"
           },
           "date": {
-            "$ref": "#/definitions/date",
-            "description": "date of logging"
+            "type": "string",
+            "description": "quarter of logging"
           },
           "peRatio": {
             "type": "number"
