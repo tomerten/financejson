@@ -2156,7 +2156,7 @@
             "type": "number"
           },
           "buyPercentInsiderShares": {
-            "$ref": "#/definitions/percentage"
+            "$ref": "#/definitions/percentchange"
           },
           "netInfoCount": {
             "type": "number"
@@ -2165,7 +2165,7 @@
             "type": "number"
           },
           "netPercentInsiderShares": {
-            "$ref": "#/definitions/percentage"
+            "$ref": "#/definitions/percentchange"
           },
           "period": {
             "type": "string"
@@ -2177,7 +2177,7 @@
             "type": "number"
           },
           "sellPercentInsiderShares": {
-            "$ref": "#/definitions/percentage"
+            "$ref": "#/definitions/percentchange"
           },
           "totalInsiderShares": {
             "type": "number"
