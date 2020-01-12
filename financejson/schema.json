@@ -208,23 +208,35 @@
         },
         "open": {
           "type": "number",
-          "description": "daily open price"
+          "description": "open price"
         },
         "high": {
           "type": "number",
-          "description": "daily high price"
+          "description": "high price"
         },
         "low": {
           "type": "number",
-          "description": "daily low price"
+          "description": "low price"
         },
         "close": {
           "type": "number",
-          "description": "daily close price"
+          "description": "close price"
         },
         "volume": {
           "type": "number",
           "description": "daily volume"
+        },
+        "adjclose": {
+          "type": "number",
+          "description": "adj close"
+        },
+        "dividends": {
+          "type": "number",
+          "description": "dividend payouts"
+        },
+        "splits": {
+          "type": "number",
+          "description": "splits"
         }
       }
     },
@@ -250,23 +262,35 @@
         },
         "open": {
           "type": "number",
-          "description": "daily open price"
+          "description": "open price"
         },
         "high": {
           "type": "number",
-          "description": "daily high price"
+          "description": "high price"
         },
         "low": {
           "type": "number",
-          "description": "daily low price"
+          "description": "low price"
         },
         "close": {
           "type": "number",
-          "description": "daily close price"
+          "description": "close price"
         },
         "volume": {
           "type": "number",
-          "description": "daily volume"
+          "description": "volume"
+        },
+        "adjclose": {
+          "type": "number",
+          "description": "adj close"
+        },
+        "dividends": {
+          "type": "number",
+          "description": "dividend payouts"
+        },
+        "splits": {
+          "type": "number",
+          "description": "splits"
         }
       }
     }
