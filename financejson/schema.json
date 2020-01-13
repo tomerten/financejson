@@ -187,7 +187,6 @@
       }
     },
     "ohlcv": {
-      "additionalProperties": false,
       "type": "object",
       "description": "OHLCV for intervals 1d and longer",
       "required": [
@@ -241,7 +240,6 @@
       }
     },
     "ohlcv_intraday": {
-      "additionalProperties": false,
       "type": "object",
       "description": "OHLCV for intervals 1d and longer",
       "required": [
