@@ -1576,13 +1576,13 @@
             "type": "number"
           },
           "recommendationKey": {
-            "type": "string",
             "enum": [
               "strong buy",
               "buy",
               "hold",
               "sell",
-              "strong sell"
+              "strong sell",
+              null
             ]
           },
           "numberOfAnalystOpinions": {
