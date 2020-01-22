@@ -1582,7 +1582,7 @@
               "hold",
               "sell",
               "strong sell",
-              null
+              "none"
             ]
           },
           "numberOfAnalystOpinions": {
