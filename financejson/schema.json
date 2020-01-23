@@ -70,7 +70,7 @@
     },
     "percentage": {
       "type": "number",
-      "minimum": 0,
+      "minimum": -10000,
       "maximum": 10000
     },
     "percentchange": {
